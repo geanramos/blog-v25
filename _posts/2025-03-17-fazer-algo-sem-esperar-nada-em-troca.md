@@ -4,7 +4,7 @@ title: "A graça de fazer algo sem esperar nada em troca"
 date: 2025-03-17 14:01:00 -0300
 description: "Quando foi a última vez que você fez algo só por gostar? Sem precisar monetizar ou transformar em meta? Bora falar sobre isso! 🦋"
 tags: [ohayo]
-img: "dreaming-office.jpg"
+img: "./img/dreaming-office.jpg"
 ---
 ![Nem tudo precisa ser produtivo, só aproveite](https://cdn.jsdelivr.net/gh/geanramos/files/img/rising-tag.png)
 
