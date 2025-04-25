@@ -12,14 +12,14 @@ site-twitter: #if your site has a twitter account, enter it here
 author: David Freeman # add your name
 author-img: david-freeman.jpg # add your photo
 about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-twitter: geanramos # add your Twitter handle
+social-facebook: geanramos # add your Facebook handle
+social-github: # add your Github handle
+social-linkedin: geanramos # add your Linkedin handle
+social-email: contato@geanramos.com.br # add your Email address
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier: geanramos # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
