@@ -2,7 +2,7 @@
 title: "Como Fazer a Zona de Conforto Trabalhar a Seu Favor"
 date: 2025-01-21 04:01:00 -03:00
 description: "Medo de sair da zona de conforto? Aprenda a ampliá-la gradualmente e conquiste mais!"
-categories: blogger
+categories: arquivo
 tags: [ohayo]
 img: "https://i1.wp.com/img.freepik.com/free-photo/sad-thoughtful-anxious-woman-listening-music-using-smartphone_482257-19436.jpg?resize=720,405"
 ---

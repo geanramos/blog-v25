@@ -2,8 +2,8 @@
 title: "O passado e o amor: aprendendo a lidar."
 date: 2014-11-11 06:01:00 -03:00
 description: "Ciúmes e controle? Só atrapalham a viagem do amor. Vem entender por quê."
-categories: blogger
-tags: [blogger, arquivo]
+categories: arquivo
+tags: [arquivo, arquivo]
 img: "https://geanramos.com.br/img/amor-e-uma-viagem.jpg"
 ---
 

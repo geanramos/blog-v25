@@ -2,8 +2,8 @@
 title: "Módulo de Ignição"
 date: 2015-06-03 06:01:00 -03:00
 description: "Veja como transformar desafios em oportunidades com foco e determinação. Leia agora e inspire-se a enfrentar qualquer obstáculo!"
-categories: blogger
-tags: [blogger, arquivo]
+categories: arquivo
+tags: [arquivo, arquivo]
 img: "https://geanramos.com.br/img/concorrencia-menor.jpg"
 ---
 

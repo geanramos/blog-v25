@@ -2,7 +2,7 @@
 title: "Mantendo a Paixão: O Papel da Paquera no Dia a Dia"
 date: 2025-01-26 04:58:00 -03:00
 description: "Descubra como a paquera pode manter a chama acesa nos relacionamentos."
-categories: blogger
+categories: arquivo
 tags: [memories]
 img: "./img/30-355.jpg"
 ---

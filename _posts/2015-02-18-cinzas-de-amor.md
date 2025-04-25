@@ -2,8 +2,8 @@
 title: "Amor Fugitivo: Camila e Suas Aventuras"
 date: 2015-02-18 06:01:00 -03:00
 description: "Cinzas de amor: quando a intensidade do carnaval se torna saudade."
-categories: blogger
-tags: [blogger, arquivo]
+categories: arquivo
+tags: [arquivo, arquivo]
 img: "https://geanramos.com.br/img/cinzas-de-amor.jpg"
 ---
 

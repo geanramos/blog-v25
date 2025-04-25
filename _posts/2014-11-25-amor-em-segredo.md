@@ -2,8 +2,8 @@
 title: "Amor em Segredo: A Saga Diária do Quase-Amor"
 date: 2014-11-25 06:01:00 -03:00
 description: "Um amor não correspondido pode ser tão intenso quanto um verdadeiro? Descubra nesse relato!"
-categories: blogger
-tags: [blogger, arquivo]
+categories: arquivo
+tags: [arquivo, arquivo]
 img: "https://geanramos.com.br/img/amor-em-segredo.jpg"
 ---
 

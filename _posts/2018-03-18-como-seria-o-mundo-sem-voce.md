@@ -5,7 +5,7 @@ description: "Quando estava no final do ensino médio, a Ana Clara conheceu o Al
 tags: [memories]
 ---
 
-![Imagem: It’s a Wonderful Life, 1946](https://images.weserv.nl/?url=blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTqDeVxiG7uX_RlPTJb_9bTBNXlNSf08_flUs9Ol3f7vmGj1LRNpsUrx2etZY8mYxDLinf11hSP6YIytahurhB_WJ652LMt1dcIVviid1W8R95e7Os1L3oEcO5ayfVe_fBw365xhnU8c6v/s1600/photo_08a.jpg&w=800&h=510&output=jpeg&q=80&t=square)
+![Imagem: It’s a Wonderful Life, 1946](https://images.weserv.nl/?url=arquivo.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTqDeVxiG7uX_RlPTJb_9bTBNXlNSf08_flUs9Ol3f7vmGj1LRNpsUrx2etZY8mYxDLinf11hSP6YIytahurhB_WJ652LMt1dcIVviid1W8R95e7Os1L3oEcO5ayfVe_fBw365xhnU8c6v/s1600/photo_08a.jpg&w=800&h=510&output=jpeg&q=80&t=square)
 
 _(Imagem: It’s a Wonderful Life, 1946 - Reprodução)_
 

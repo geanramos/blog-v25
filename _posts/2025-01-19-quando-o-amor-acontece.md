@@ -2,7 +2,7 @@
 title: "Quando o Amor Acontece sem Planejar"
 date: 2025-01-19 05:01:00 -03:00
 description: "De um simples bom dia a um pedido de namoro espontâneo — a história de Beatriz e Eduardo é pura inspiração"
-categories: blogger
+categories: arquivo
 tags: [memories]
 img: "https://i.imgur.com/wwNpcSF.jpeg"
 ---

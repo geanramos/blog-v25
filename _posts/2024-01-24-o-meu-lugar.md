@@ -2,10 +2,10 @@
 title: "O meu lugar"
 date: "2024-01-24"
 tags: [memories]
-img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIWo2JpqiXkX407uLm5OiKHpDUWGjsDBf7H6280zA0VGAYEqAAnOpikqXl80mc95T9ULaMyh97imlKV3n4ulGTe-2-q2uclAYeG-a7mSoja3zg9d_bFT_SQw3YJM8wwgy5XBsYqU_TGA2-57OFQW3BNyE-5HHcI0tTFmIRALZxEQBsqHUeZjLbLp-eE0vB/s1200/unnamed.jpg"
+img: "https://arquivo.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIWo2JpqiXkX407uLm5OiKHpDUWGjsDBf7H6280zA0VGAYEqAAnOpikqXl80mc95T9ULaMyh97imlKV3n4ulGTe-2-q2uclAYeG-a7mSoja3zg9d_bFT_SQw3YJM8wwgy5XBsYqU_TGA2-57OFQW3BNyE-5HHcI0tTFmIRALZxEQBsqHUeZjLbLp-eE0vB/s1200/unnamed.jpg"
 ---
 
-![O meu lugar](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIWo2JpqiXkX407uLm5OiKHpDUWGjsDBf7H6280zA0VGAYEqAAnOpikqXl80mc95T9ULaMyh97imlKV3n4ulGTe-2-q2uclAYeG-a7mSoja3zg9d_bFT_SQw3YJM8wwgy5XBsYqU_TGA2-57OFQW3BNyE-5HHcI0tTFmIRALZxEQBsqHUeZjLbLp-eE0vB/s16000/unnamed.jpg)
+![O meu lugar](https://arquivo.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIWo2JpqiXkX407uLm5OiKHpDUWGjsDBf7H6280zA0VGAYEqAAnOpikqXl80mc95T9ULaMyh97imlKV3n4ulGTe-2-q2uclAYeG-a7mSoja3zg9d_bFT_SQw3YJM8wwgy5XBsYqU_TGA2-57OFQW3BNyE-5HHcI0tTFmIRALZxEQBsqHUeZjLbLp-eE0vB/s16000/unnamed.jpg)
 
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/149555492&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>

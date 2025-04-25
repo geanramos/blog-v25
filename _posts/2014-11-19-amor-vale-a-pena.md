@@ -2,8 +2,8 @@
 title: "Amor e Dor: Vale a Pena Arriscar?"
 date: 2014-11-19 06:01:00 -03:00
 description: "A dolorosa verdade sobre o amor que ninguem te conta: por que ainda vale a pena?"
-categories: blogger
-tags: [blogger, arquivo]
+categories: arquivo
+tags: [arquivo, arquivo]
 img: "https://geanramos.com.br/img/desafios-do-amor.jpg"
 ---
 

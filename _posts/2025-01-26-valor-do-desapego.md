@@ -2,7 +2,7 @@
 title: "Expectativas vs. Realidade: O Valor do Desapego"
 date: 2025-01-26 05:01:00 -03:00
 description: "Como desapegar das expectativas pode nos trazer paz e satisfação."
-categories: blogger
+categories: arquivo
 tags: [memories]
 img: "https://i1.wp.com/img.freepik.com/fotos-premium/menina-crianca-cheirando-uma-flor-de-peonia_561751-101.jpg?resize=600,338"
 ---

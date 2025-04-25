@@ -2,7 +2,7 @@
 title: "Como os Desafios nos Fazem Mais Fortes"
 date: 2025-01-14 05:01:00 -03:00
 description: "Como a dor nos ensina lições valiosas e nos torna mais fortes."
-categories: blogger
+categories: arquivo
 tags: [arquivo]
 img: "https://geanramos.com.br/img/desafios-e-vitorias.jpg"
 ---

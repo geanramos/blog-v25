@@ -2,7 +2,7 @@
 title: "A Beleza dos Momentos"
 date: 2014-04-03 06:01:00 -03:00
 description: "Apaixonar-se pode ser complicado, mas é bom demais! Descubra porquê."
-categories: blogger
+categories: arquivo
 tags: [arquivo]
 img: "https://geanramos.com.br/img/apaixonar-se.jpg"
 ---

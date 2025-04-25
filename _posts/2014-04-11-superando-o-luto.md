@@ -2,7 +2,7 @@
 title: "Superação do Luto: Rir para Não Chorar"
 date: 2014-04-11 06:01:00 -03:00
 description: "Perder alguém é inevitável, mas o luto nos leva a descobertas profundas."
-categories: blogger
+categories: arquivo
 tags: [arquivo]
 img: "https://geanramos.com.br/img/coracao-partido.jpg"
 ---

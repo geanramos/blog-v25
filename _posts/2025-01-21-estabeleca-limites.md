@@ -2,7 +2,7 @@
 title: "Limites: A Chave para o Sucesso"
 date: 2025-01-21 02:30:00 -03:00
 description: "Descubra como estabelecer limites pode ser a chave para o crescimento pessoal e financeiro!"
-categories: blogger
+categories: arquivo
 tags: [ohayo]
 img: "https://i1.wp.com/img.freepik.com/free-photo/aged-couple-pensioners-talking-with-employee_1398-4339.jpg?resize=600,338"
 ---

@@ -2,7 +2,7 @@
 title: "Pequenos Ajustes, Grandes Transformações"
 date: 2025-01-21 04:00:00 -03:00
 description: "Transforme sua percepção e mude sua realidade! Descubra a Magia da Mudança"
-categories: blogger
+categories: arquivo
 tags: [ohayo]
 img: "https://i1.wp.com/img.freepik.com/free-photo/caucasian-female-falling-asleep-after-eating-junkfood-living-room-late-night_482257-9661.jpg?resize=720,405"
 ---

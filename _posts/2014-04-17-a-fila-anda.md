@@ -2,7 +2,7 @@
 title: "A Fila Anda: Reflexões sobre Amor e Ilusão"
 date: 2014-04-17 06:01:00 -03:00
 description: "A fila anda: reflexões sobre a quantidade versus qualidade no amor."
-categories: blogger
+categories: arquivo
 tags: [arquivo]
 img: "https://geanramos.com.br/img/a-fila-anda.jpg"
 ---
