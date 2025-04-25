@@ -1,8 +1,6 @@
-title: Hello, world! I'm David Freeman
+title: Gean Ramos
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  O lugar onde as histórias ganham vida! Junte-se a nós para romances arrebatadores, reflexões profundas e muitos mais. 😊
 permalink: ':title'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://t1.u1m.com.br" # the base hostname & protocol for your site, e.g. http://example.com
@@ -11,12 +9,12 @@ site-twitter: https://twitter.com/geanramos #if your site has a twitter account,
 # Author Settings
 author: Gean Ramos # add your name
 author-img: https://github.com/geanramos.png # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+about-author: O lugar onde as histórias ganham vida! Junte-se a nós para romances arrebatadores, reflexões profundas e muitos mais. 😊 # add description
 social-twitter: geanramos # add your Twitter handle
 social-facebook: geanramos # add your Facebook handle
 social-github: # add your Github handle
 social-linkedin: geanramos # add your Linkedin handle
-social-email: contato@geanramos.com.br # add your Email address
+social-email: geanramos@gmail.com # add your Email address
 
 # Disqus
 discus-identifier: geanramos # add your discus identifier
