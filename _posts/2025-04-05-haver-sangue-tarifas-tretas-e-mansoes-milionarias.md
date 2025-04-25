@@ -4,7 +4,7 @@ title: "Haverá sangue, tarifas, tretas e mansões milionárias"
 date: 2025-04-05 13:43:00 -0300
 description: mercado em pânico, frases sem noção e o Brasil provando que a realidade pode ser mais bizarra que a ficção
 tags: [noticia]
-img:  https://i.imgur.com/fMbI4ZK.jpeg
+img:  fMbI4ZK.jpeg
 ---
 
 💣 Haverá Sangue: colapso global, quotes surreais e Brasil sendo Brasil.
