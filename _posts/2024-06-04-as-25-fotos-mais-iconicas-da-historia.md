@@ -9,7 +9,7 @@ img: "./img/Robert-Doisneau-baiser.jpg.webp"
 <div class="embed-responsive">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VfLH0xJByiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-![O New York Times reuniu um grupo de especialistas para escolher as 25 fotografias mais significativas desde 1955](https://www.canalmeio.com.br/templates_news/thumbnail.php?id=O+New+York+Times+reuniu+um+grupo+de+especialistas+para+escolher+as+25+fotografias+mais+significativas+desde+1955)
+![O New York Times reuniu um grupo de especialistas para escolher as 25 fotografias mais significativas desde 1955](https://img.artlogic.net/exhibit-e/5bed9642a5aa2cac488b4567/fd9238413e52b70831a26885aadf57dc.png)
 **O  _New York Times_**  reuniu um grupo de especialistas para escolher as  [25 fotografias](https://www.nytimes.com/2024/06/03/t-magazine/photography-robert-frank-gordon-parks.html)  mais significativas desde 1955. As obras selecionadas incluem os retratos de Che Guevara, feito por Alberto Korda, em 1960, e de Huey Newton, líder do partido dos Panteras Negras, feito por Blair Stapp, em 1968. 
 
 Também aparecem o  _Nascer da Terra_, registro de William A. Anders durante a missão Apollo 8 à Lua, em 1968, e a icônica imagem de Stuart Franklin de um homem não identificado bloqueando uma coluna de tanques na Praça da Paz Celestial, de 1989. 
