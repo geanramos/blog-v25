@@ -4,7 +4,7 @@ date: 2025-01-26 04:58:00 -03:00
 description: "Descubra como a paquera pode manter a chama acesa nos relacionamentos."
 categories: blogger
 tags: [memories]
-img: "https://i1.wp.com/film-grab.com/wp-content/uploads/photo-gallery/30%20(355).jpg?resize=600,338"
+img: "./img/30-355.jpg"
 ---
 
 ![Gean Ramos - Paquera: O Segredo Para Relacionamentos Duradouros](https://i1.wp.com/img.freepik.com/fotos-premium/grupo-de-amigos-uma-festa_53876-73133.jpg?resize=600,338)
