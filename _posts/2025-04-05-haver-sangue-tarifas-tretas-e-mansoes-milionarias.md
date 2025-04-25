@@ -17,7 +17,7 @@ Então respira fundo, *darling*, porque a Tisha News vai destrinchar tudo isso c
 
 
 <audio id="player-audio" controls>
-<source src="https://tisha.geanramos.com.br/audio/haver-sangue-tarifas-tretas-e-mansoes-milionarias.mp3" type="audio/mpeg">
+<source src="https://tisha.geanramos.com.br/audio/trump-vs-china-tinder-com-ia-e-crime-recorde-no-brasil.mp3" type="audio/mpeg">
 </audio>
 
 ### 📉 Wall Street em chamas: o tarifaço de Trump
