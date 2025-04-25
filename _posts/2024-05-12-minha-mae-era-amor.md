@@ -2,7 +2,7 @@
 title: "Minha mãe era amor"
 date: "2024-05-12T10:00:32+05:30"
 tags: [memories]
-img: "https://memories.geanramos.com.br/img/menina-da-lua2.jpg"
+img: "./img/menina-da-lua2.jpg"
 ---
 
 
