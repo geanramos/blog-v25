@@ -25,7 +25,7 @@
 		<item>
 			<title>{{ post.title | xml_escape }}</title>
 			<link>{{ site.url }}{{ post.url }}</link>
-			<comments>{{ site.url }}{{ post.url }}#comments</comments>
+			<comments>{{ site.url }}{{ post.url }}#comentario</comments>
 			<dc:creator><![CDATA[{{ post.author }}]]></dc:creator>
 			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 			<category><![CDATA[{{ post.category }}]]></category>
