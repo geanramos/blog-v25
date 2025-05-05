@@ -789,6 +789,7 @@ img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
+  border-radius: 4px;
 }
 
 img + em {
@@ -884,7 +885,7 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1250px;
+  max-width: 960px;
   position: relative;
 }
 
@@ -1297,9 +1298,11 @@ a.newer-posts:hover {
   font-size: 10px;
   padding: 5px 10px;
   margin-left: 5px;
-  color: #263959;
+  color: #fff;
   text-transform: uppercase;
-  border: 1px solid #263959;
+  border: 2px solid #00e;
+  border-radius: 5px;
+  background: #00e;
 }
 
 .page-footer .page-tag a:hover {
