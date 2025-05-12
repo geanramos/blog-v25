@@ -2,19 +2,17 @@
 layout: main
 ---
 <article class="article-page">
-  <div class="page-content">
-    {% if page.img %}
-<!-- Editado por gean.me - 2025-05-12 -->
-<div class="page-cover-image">
-  <figure>
-    <img class="page-image" src="{{ page.img | default: 'https://picsum.photos/680/383' }}" alt="{{ page.title }}">
-    {% if page.fig-caption %}
-      <figcaption>{{ page.fig-caption }}</figcaption>
-    {% endif %}
-  </figure>
-</div> <!-- End Page Cover Image -->
-    {% else %}
-    {% endif %}
+<div class="page-content">
+  <!-- Editado por gean.me - 2025-05-12 -->
+  <div class="page-cover-image">
+    <figure>
+      <img class="page-image" src="{{ page.img | default: 'https://picsum.photos/680/383' }}" alt="{{ page.title }}">
+      {% if page.fig-caption %}
+        <figcaption>{{ page.fig-caption }}</figcaption>
+      {% endif %}
+    </figure>
+  </div> <!-- End Page Cover Image -->
+</div>
     <div class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
