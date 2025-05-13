@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Profissão Gestor de Tráfego</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/geanramos/18011975/css/watch.css">
-<link rel="shortcut icon" href="https://www.youtube.com/s/desktop/08f2775a/img/logos/favicon.ico" type="image/x-icon">
-<link rel="icon" href="https://www.youtube.com/s/desktop/08f2775a/img/logos/favicon_32x32.png" sizes="32x32">
-<link rel="icon" href="https://www.youtube.com/s/desktop/08f2775a/img/logos/favicon_48x48.png" sizes="48x48">
-<link rel="icon" href="https://www.youtube.com/s/desktop/08f2775a/img/logos/favicon_96x96.png" sizes="96x96">
-<link rel="icon" href="https://www.youtube.com/s/desktop/08f2775a/img/logos/favicon_144x144.png" sizes="144x144">
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
-</style>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TZBPFV014K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-TZBPFV014K', {
-    'cookie_domain': 'auto'
-  });
-</script>
+  <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/08f2775a/img/logos/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://www.youtube.com/s/desktop/08f2775a/img/logos/favicon_32x32.png" sizes="32x32">
+  <link rel="icon" href="https://www.youtube.com/s/desktop/08f2775a/img/logos/favicon_48x48.png" sizes="48x48">
+  <link rel="icon" href="https://www.youtube.com/s/desktop/08f2775a/img/logos/favicon_96x96.png" sizes="96x96">
+  <link rel="icon" href="https://www.youtube.com/s/desktop/08f2775a/img/logos/favicon_144x144.png" sizes="144x144">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZBPFV014K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TZBPFV014K', {
+      'cookie_domain': 'auto'
+    });
+  </script>
 </head>
 <body>
   <div class="container">
@@ -33,7 +33,10 @@
     </header>
 
     <main>
-      <h1><span>APRENDA</span> <strong>COMO TER SUCESSO</strong> NA GESTÃO DE TRÁFEGO</h1>
+      <div id="video-info">
+        <h1 id="video-title">Carregando título...</h1>
+      </div>
+      
       <div class="video-container">
         <iframe id="video" src="" frameborder="0" allowfullscreen></iframe>
       </div>
@@ -54,10 +57,35 @@
     </footer>
   </div>
 
-  <script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const videoId = urlParams.get('v') || 'xFxvRgoQJBM'; // fallback se não tiver vídeo
-    document.getElementById('video').src = `https://www.youtube.com/embed/${videoId}`;
-  </script>
+<script>
+  // Pega o ID do vídeo da URL ou usa um padrão
+  const urlParams = new URLSearchParams(window.location.search);
+  const videoId = urlParams.get('v') || 'xFxvRgoQJBM';
+
+  // Atualiza o iframe com o vídeo
+  document.getElementById('video').src = `https://www.youtube.com/embed/${videoId}`;
+
+  // Monta a URL para o oEmbed
+  const oEmbedUrl = `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${videoId}&format=json`;
+
+  // Requisição para pegar dados do vídeo
+  fetch(oEmbedUrl)
+    .then(response => {
+      if (!response.ok) throw new Error('Erro ao buscar dados do vídeo.');
+      return response.json();
+    })
+    .then(data => {
+      // Atualiza o conteúdo na página
+      document.getElementById('video-title').textContent = data.title;
+
+      // Atualiza o <title> da aba do navegador
+      document.title = `${data.title}`;
+    })
+    .catch(error => {
+      console.error(error);
+      document.getElementById('video-title').textContent = 'Erro ao carregar o título do vídeo';
+    });
+</script>
+
 </body>
 </html>
