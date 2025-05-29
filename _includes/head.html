@@ -9,9 +9,9 @@
 <meta name="image" content="{{ page.img }}">{% else %}
 <meta name="image" content="{{ site.author-img }}">{% endif %}
 <meta name="author" content="{{ site.author.name | default: 'Gean Ramos' }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.author.name }} - RSS" href="{{ site.url }}/rss.xml" />
-<link rel="alternate" type="application/rss+xml" title="{{ site.author.name }} - Feed" href="{{ site.url }}/feed.xml" />
-<link rel="alternate" type="application/rss+xml" title="{{ site.author.name }} - FeedBurner" href="https://feeds.feedburner.com/geanramos" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.author.name | default: 'Gean Ramos' }} - RSS" href="{{ site.url }}/rss.xml" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.author.name | default: 'Gean Ramos' }} - Feed" href="{{ site.url }}/feed.xml" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.author.name | default: 'Gean Ramos' }} - FeedBurner" href="https://feeds.feedburner.com/geanramos" />
 
   <!-- Meta básica -->
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
