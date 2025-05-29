@@ -4,7 +4,7 @@ title: "Você sabe quem é? Porque se não souber... Ih, aí complica! 😬🧠"
 date: 2025-04-29 05:00:00 -0300
 description: "Você tentando se encontrar no meio da bagunça emocional alheia."
 tags: [ohayo]
-images: "https://img.freepik.com/fotos-premium/jovem-mulher-isolada-em-branco-a-procura-de-solucoes_530697-112268.jpg"
+img: "https://img.freepik.com/fotos-premium/jovem-mulher-isolada-em-branco-a-procura-de-solucoes_530697-112268.jpg"
 ---
 Gente, vamos combinar uma coisa: viver no modo automático, sem saber nem quem a gente é direito, tá fora de moda. Se você ainda não deu um Google em você mesmo pra entender sua essência, tá mais do que na hora de fazer isso, tá?
 
