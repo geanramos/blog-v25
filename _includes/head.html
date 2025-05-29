@@ -1,6 +1,14 @@
 <head>
-  <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta charset="utf-8">
+<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="title" content="{{ page.title | escape }}">{% if page.description %}
+<meta name="description" content="{{ page.description | strip_html | strip_newlines | escape }}">{% else %}
+<meta name="description" content="{{ site.description | strip_html | strip_newlines | escape }}">{% endif %}{% if page.tags %}
+<meta name="keywords" content="{% for tag in page.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}">{% else %}
+<meta name="keywords" content="Gean Ramos, blog, conteúdo, artigos, blog, comportamento, relacionamento">{% endif %}{% if page.img %}
+<meta name="image" content="{{ page.img }}">{% else %}
+<meta name="image" content="{{ site.author-img }}">{% endif %}
+<meta name="author" content="{{ site.author.name | default: 'Gean Ramos' }}">
 
   <!-- Meta básica -->
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
