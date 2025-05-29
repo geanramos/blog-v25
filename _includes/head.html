@@ -31,7 +31,7 @@
   <meta property="og:image" content="{{ page.img }}">{% else %}
   <meta property="og:image" content="{{ site.author-img }}">{% endif %}{% if page.categories %}{% for category in page.categories limit:1 %}
   <meta property="article:section" content="{{ tags }}">{% endfor %}{% endif %}{% if page.tags %}{% for tag in page.tags %}
-  <meta property="article:tag" content="{{ tags }}">{% endfor %}{% endif %}
+  <meta property="article:tag" content="{% for tag in page.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}">{% endfor %}{% endif %}
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
