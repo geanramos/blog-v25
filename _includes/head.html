@@ -45,38 +45,44 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#263959">
 
   <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "{% if page.title %}Article{% else %}WebSite{% endif %}",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "{{ site.url }}{{ page.url }}"
-    },
-    "headline": "{{ page.title | escape }}",
-    "description": "{{ page.description | escape }}",
-    "image": {
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "headline": "{{ page.title | escape }}",
+  {% if page.description %}
+  "description": "{{ page.description | strip_newlines | strip_html | escape }}",
+  {% else %}
+  "description": "{{ site.description | strip_newlines | strip_html | escape }}",
+  {% endif %}
+  "image": {
+    "@type": "ImageObject",
+    "url": "{% if page.img %}{{ page.img }}{% else %}{{ site.author-img }}{% endif %}"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name | default: 'Gean Ramos' }}",
+    "url": "{{ site.url }}/sobre/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title | default: 'Gean Ramos' }}",
+    "logo": {
       "@type": "ImageObject",
-      "url": "{% if page.img %}{{ page.img }}{% else %}{{ site.author-img }}{% endif %}"
-    },
-    "author": {
-      "@type": "Person",
-      "name": "{{ site.author }}"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "{{ site.title }}",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "{{ site.url }}/favicon/apple-touch-icon.png"
-      }
-    },
-    {% if page.date %}
-    "datePublished": "{{ page.date | date_to_xmlschema }}",
-    "dateModified": "{{ page.date | date_to_xmlschema }}"
-    {% endif %}
-  }
-  </script>
+      "url": "{{ site.url }}/favicon/android-chrome-512x512.png"
+    }
+  },
+  {% if page.date %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | date_to_xmlschema | default: page.date | date_to_xmlschema }}",
+  {% endif %}
+  "url": "{{ site.url }}{{ page.url }}"
+}
+</script>
 	
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
