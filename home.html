@@ -44,7 +44,7 @@
       <div class="cartao-artigo">
         <a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="cartao-artigo-link-imagem">
             <figure class="cartao-artigo-imagem-wrapper">
-                <img src="https://images.weserv.nl/?w=200&h=115&output=jpg&q=80&t=square&url={{ page.img | default: 'https://picsum.photos/200/115' }}" alt="{{ post.title }}">
+                <img src="{% if post.image %}https://images.weserv.nl/?w=200&h=115&output=jpg&q=80&t=square&url={{ post.img | absolute_url }}{% else %}https://picsum.photos/200/115{% endif %}" alt="{{ post.title }}">
             </figure>
         </a>
         <div class="cartao-artigo-conteudo">
