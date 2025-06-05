@@ -239,8 +239,8 @@
     }
 
     .cartao-artigo-link-titulo:hover .cartao-artigo-titulo {
-        color: var(--cor-verde-line); 
-        text-decoration: underline;
+        color: #0000ff; 
+        text-decoration: none;
     }
 
     .cartao-artigo-data { /* p */
@@ -296,8 +296,8 @@
     }
 
     .footer-links a:hover {
-        color: var(--cor-verde-line);
-        text-decoration: underline;
+        color: #0000ff;
+        text-decoration: none;
     }
 
     .footer-copyright {
@@ -314,5 +314,5 @@
    }
    a:hover {
        text-decoration: none;
-       color: #06ff16;
+       color: #00f;
    }
