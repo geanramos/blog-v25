@@ -63,14 +63,21 @@
    }
 
    .site-header {
-     background-color: var(--cor-fundo); /* Ou a cor da capa se ela não ocupar tudo */
+     background-color: transparent; /* Ou a cor da capa se ela não ocupar tudo */
      position: relative;
    }
 
    .capa-container {
-    max-width: 768px; /* Largura da capa como no Today Line */
+    max-width: 768px;
     margin: 0 auto;
     line-height: 0; 
+    background-image: url('https://telegram.org/img/tgme/pattern.svg?1');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto 100vh;
+    background-color: #06c755;
+    opacity: 0.5;
    }
 
    .capa {
@@ -239,8 +246,8 @@
     }
 
     .cartao-artigo-link-titulo:hover .cartao-artigo-titulo {
-        color: #0000ff; 
-        text-decoration: none;
+        color: var(--cor-verde-line); 
+        text-decoration: underline;
     }
 
     .cartao-artigo-data { /* p */
@@ -296,8 +303,8 @@
     }
 
     .footer-links a:hover {
-        color: #0000ff;
-        text-decoration: none;
+        color: var(--cor-verde-line);
+        text-decoration: underline;
     }
 
     .footer-copyright {
@@ -314,5 +321,5 @@
    }
    a:hover {
        text-decoration: none;
-       color: #00f;
+       color: #06ff16;
    }
