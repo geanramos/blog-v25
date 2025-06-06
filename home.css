@@ -76,7 +76,7 @@
     background-position: center;
     background-attachment: fixed;
     background-size: auto 100vh;
-    background-color: #06c755;
+    background-color: #0000ff;
     opacity: 0.5;
    }
 
@@ -246,8 +246,8 @@
     }
 
     .cartao-artigo-link-titulo:hover .cartao-artigo-titulo {
-        color: var(--cor-verde-line); 
-        text-decoration: underline;
+        color: #0000ff; 
+        text-decoration: none;
     }
 
     .cartao-artigo-data { /* p */
@@ -303,8 +303,8 @@
     }
 
     .footer-links a:hover {
-        color: var(--cor-verde-line);
-        text-decoration: underline;
+        color: #0000ff;
+        text-decoration: none;
     }
 
     .footer-copyright {
@@ -321,5 +321,5 @@
    }
    a:hover {
        text-decoration: none;
-       color: #06ff16;
+       color: #00f;
    }
