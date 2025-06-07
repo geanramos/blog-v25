@@ -4,7 +4,7 @@ date: 2025-01-14 05:01:00 -03:00
 description: "Lidar com o luto e a tristeza prolongada: Medo de ser mãe? "
 categories: arquivo
 tags: [ohayo]
-img: "https://geanramos.com.br/img/desafios-e-vitorias.jpg"
+img: "https://img.freepik.com/free-photo/man-plastic-bag-touching-it-with-his-palm_181624-16234.jpg"
 ---
 
 ![Aprender com a dor e confiar no futuro: lições de vida.](https://cdn.jsdelivr.net/gh/geanramos/files/img/desabafo.png)
