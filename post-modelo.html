@@ -9,14 +9,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link href="./home.css?v=01" rel="stylesheet">
-  <link href="./post.css?v=01" rel="stylesheet">
+  <link href="./home.css?v=01" rel="stylesheet"> 
+  <link href="./post.css?v=01" rel="stylesheet"> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZBPFV014K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TZBPFV014K', {'cookie_domain': 'auto'});
+  </script>
 </head>
 <body>
-
   <header class="site-header">
     <div class="capa-container">
-        <img class="capa" src="https://picsum.photos/768/276" alt="Capa Tisha News">
+        <img class="capa" src="https://picsum.photos/768/291" alt="Capa Tisha News">
     </div>
     <section class="perfil-card">
         <div class="avatar-wrapper">
@@ -34,6 +40,7 @@
         <p class="perfil-seguidores">496K Seguidores</p>
     </section>
   </header>
+
   <main class="container">
     <article class="post-container">
       <header class="post-header">
@@ -42,36 +49,83 @@
       </header>
       
       <figure class="post-feature-image">
-          <img src="https://picsum.photos/id/1015/728/400" alt="Imagem de Destaque do Post">
+          <img src="https://picsum.photos/id/1018/704/400" alt="Imagem de Destaque do Post">
       </figure>
 
       <section class="post-content">
         <p>Este é o parágrafo inicial do seu artigo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        
         <h2>Um Subtítulo para Organizar o Conteúdo</h2>
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida.</p>
-        
-        <blockquote>
-            Esta é uma citação em bloco (blockquote), usada para destacar uma frase ou parágrafo importante. Ela terá um estilo visualmente diferente para chamar a atenção do leitor.
-        </blockquote>
+        <blockquote>Esta é uma citação em bloco (blockquote), usada para destacar uma frase ou parágrafo importante.</blockquote>
+      </section>
 
-        <h3>Outro nível de subtítulo</h3>
-        <p>Abaixo, um exemplo de lista não ordenada:</p>
-        <ul>
-            <li>Primeiro item da lista.</li>
-            <li>Segundo item da lista com um <a href="#">link de exemplo</a>.</li>
-            <li>Terceiro item da lista.</li>
-        </ul>
-        <p>E aqui, um exemplo de lista ordenada:</p>
-        <ol>
-            <li>Primeiro passo.</li>
-            <li>Segundo passo.</li>
-            <li>Terceiro passo.</li>
-        </ol>
-        <p>E assim por diante. Você pode adicionar mais parágrafos, imagens, vídeos e outros elementos para compor o corpo do seu post.</p>
+      <section class="post-tags">
+        <h3>Tags:</h3>
+        <a href="/tags/#jekyll" class="tag-button">Jekyll</a>
+        <a href="/tags/#css" class="tag-button">CSS</a>
+        <a href="/tags/#desenvolvimento" class="tag-button">Desenvolvimento</a>
       </section>
     </article>
+
+    <section class="leia-tambem">
+        <h2>Leia Também</h2>
+        
+        <div class="cartao-artigo">
+            <a href="#" class="cartao-artigo-link-imagem">
+                <figure class="cartao-artigo-imagem-wrapper"> <img src="https://picsum.photos/150/86?random=1" alt="Título do artigo"> </figure>
+            </a>
+            <div class="cartao-artigo-conteudo">
+                <a href="#" class="cartao-artigo-link-titulo"> <h3 class="cartao-artigo-titulo">Outro Post Interessante que Você Pode Gostar</h3> </a>
+                <p class="cartao-artigo-data">06 de Junho de 2025</p>
+            </div>
+        </div>
+        <div class="cartao-artigo">
+            <a href="#" class="cartao-artigo-link-imagem">
+                <figure class="cartao-artigo-imagem-wrapper"> <img src="https://picsum.photos/150/86?random=2" alt="Título do artigo"> </figure>
+            </a>
+            <div class="cartao-artigo-conteudo">
+                <a href="#" class="cartao-artigo-link-titulo"> <h3 class="cartao-artigo-titulo">Análise Profunda sobre um Tema Relevante</h3> </a>
+                <p class="cartao-artigo-data">05 de Junho de 2025</p>
+            </div>
+        </div>
+        <div class="cartao-artigo">
+          <a href="#" class="cartao-artigo-link-imagem">
+              <figure class="cartao-artigo-imagem-wrapper"> <img src="https://picsum.photos/150/86?random=3" alt="Título do artigo"> </figure>
+          </a>
+          <div class="cartao-artigo-conteudo">
+              <a href="#" class="cartao-artigo-link-titulo"> <h3 class="cartao-artigo-titulo">Últimas Novidades do Mundo da Tecnologia</h3> </a>
+              <p class="cartao-artigo-data">04 de Junho de 2025</p>
+          </div>
+        </div>
+        <div class="cartao-artigo">
+          <a href="#" class="cartao-artigo-link-imagem">
+              <figure class="cartao-artigo-imagem-wrapper"> <img src="https://picsum.photos/150/86?random=4" alt="Título do artigo"> </figure>
+          </a>
+          <div class="cartao-artigo-conteudo">
+              <a href="#" class="cartao-artigo-link-titulo"> <h3 class="cartao-artigo-titulo">Dicas Essenciais para o Dia a Dia</h3> </a>
+              <p class="cartao-artigo-data">03 de Junho de 2025</p>
+          </div>
+        </div>
+        <div class="cartao-artigo">
+          <a href="#" class="cartao-artigo-link-imagem">
+              <figure class="cartao-artigo-imagem-wrapper"> <img src="https://picsum.photos/150/86?random=5" alt="Título do artigo"> </figure>
+          </a>
+          <div class="cartao-artigo-conteudo">
+              <a href="#" class="cartao-artigo-link-titulo"> <h3 class="cartao-artigo-titulo">A História por Trás de um Grande Evento</h3> </a>
+              <p class="cartao-artigo-data">02 de Junho de 2025</p>
+          </div>
+        </div>
+
+    </section>
+
+    <section class="post-comentarios">
+        <h2>Comentários</h2>
+        <div class="fb-comments-placeholder">
+          <p>A caixa de comentários do Facebook será carregada aqui.</p>
+        </div>
+    </section>
   </main>
+  
   <footer class="site-footer">
     <div class="footer-category-trigger">
         <span class="footer-category-text"><a href="./tags/" title="Tags">Tags</a></span>
@@ -88,5 +142,5 @@
     </div>
     <p class="footer-copyright">© Gean Ramos</p>
   </footer>
-  </body>
+</body>
 </html>
