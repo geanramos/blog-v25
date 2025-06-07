@@ -98,7 +98,7 @@
     padding: var(--espacamento-md);
     padding-top: calc(var(--avatar-size) / 2 + var(--espacamento-md) + var(--avatar-border-size)); 
     margin: calc(-1 * (var(--avatar-size) / 2) - var(--avatar-border-size)) auto var(--espacamento-md); 
-    max-width: 728px; /* Card do perfil alinhado com conteúdo abaixo */
+    max-width: 704px; /* Card do perfil alinhado com conteúdo abaixo */
     position: relative;
     z-index: 2;
    }
