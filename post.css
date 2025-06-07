@@ -122,14 +122,47 @@
 }
 
 .leia-tambem h2 {
-  text-align: center;
+  text-align: left;
   font-family: 'Roboto', sans-serif;
   font-weight: var(--peso-fonte-bold);
   font-size: 1.8em;
   margin-bottom: 30px;
   color: var(--cor-primaria-texto);
 }
-/* Os cartões de artigo aqui usarão os estilos do home.css */
+/* Em post.css */
+
+/* --- NOVOS ESTILOS PARA A SEÇÃO LEIA TAMBÉM --- */
+.leia-tambem {
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid var(--cor-borda-suave);
+}
+
+.leia-tambem h2 {
+  text-align: left; /* Alinhado à esquerda para dar título à seção */
+  font-family: 'Roboto', sans-serif;
+  font-weight: var(--peso-fonte-bold);
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  color: var(--cor-primaria-texto);
+}
+
+.tag-section {
+  margin-bottom: var(--espacamento-lg); /* Espaço entre cada grupo de tags */
+}
+
+.tag-section-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: var(--peso-fonte-bold);
+  font-size: 1.5em;
+  margin-top: var(--espacamento-lg);
+  margin-bottom: var(--espacamento-md);
+  padding-bottom: var(--espacamento-sm);
+  border-bottom: 3px solid var(--cor-verde-line);
+  display: inline-block; /* Faz a borda ter a largura do texto */
+}
+
+/* Os estilos para .cartao-artigo já existem em home.css */
 
 /* --- SEÇÃO DE COMENTÁRIOS (NOVO) --- */
 .post-comentarios {
