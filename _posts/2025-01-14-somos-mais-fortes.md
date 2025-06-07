@@ -4,13 +4,9 @@ date: 2025-01-14 05:01:00 -03:00
 description: "Como a dor nos ensina lições valiosas e nos torna mais fortes."
 categories: arquivo
 tags: [arquivo]
-img: "https://geanramos.com.br/img/desafios-e-vitorias.jpg"
+img: "https://img.freepik.com/premium-photo/tired-with-closed-eyes-young-female-teacher-holding-book-around-head-sitting-table-with-school-tools-classroom_141793-114308.jpg"
 ---
-
-![Gean Ramos - Desafios e Vitórias: As Lições da Vida](https://geanramos.com.br/img/desafios-e-vitorias.jpg)
-
 **A Maratona das Experiências**
-
 
 ![Como a dor nos ensina lições valiosas e nos torna mais fortes](https://cdn.jsdelivr.net/gh/geanramos/files/img/filosofando.png)
 
