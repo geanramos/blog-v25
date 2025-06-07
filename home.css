@@ -67,24 +67,39 @@
      position: relative;
    }
 
+/* ... outros estilos ... */
+
 .capa-container {
-  max-width: 768px;
+  max-width: 768px; /* Largura máxima da capa no desktop */
   margin: 0 auto;
-  position: relative; /* Necessário para posicionar a imagem filha */
-  height: 0; /* A altura será controlada pelo padding */
-  padding-top: 42.857%; /* (9 / 21) * 100% = proporção 21:9 */
+  position: relative;
   background-color: var(--cor-borda-suave); /* Cor de fundo enquanto a imagem carrega */
+
+  /* --- Abordagem Mobile-First: Proporção 21:9 --- */
+  width: 100%;
+  height: 0;
+  padding-top: 42.857%; /* (9 / 21) * 100% = proporção exata de 21:9 */
 }
 
 .capa {
-  position: absolute; /* Preenche o espaço do container pai */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+  object-fit: cover;
   display: block;
 }
+
+/* --- Media Query para Desktop (telas com 768px ou mais de largura) --- */
+@media (min-width: 768px) {
+  .capa-container {
+    height: 291px;     /* Define a altura máxima para 291px no desktop */
+    padding-top: 0;    /* Remove a proporção baseada em padding */
+  }
+}
+
+/* ... outros estilos ... */
    
    .perfil-card {
     background-color: var(--cor-branco);
