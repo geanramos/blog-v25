@@ -1,0 +1,91 @@
+/* --- ESTILOS PARA PÁGINA DE POST INDIVIDUAL --- */
+
+.post-container {
+  /* A classe .container já aplica um bom fundo e sombra, 
+     mas podemos usar esta classe para ajustes futuros. */
+}
+
+.post-header {
+  text-align: center;
+  margin-bottom: var(--espacamento-lg);
+  padding-bottom: var(--espacamento-md);
+  border-bottom: 1px solid var(--cor-borda-suave);
+}
+
+.post-title {
+  font-family: 'Roboto', sans-serif; /* Usando Roboto para legibilidade em títulos longos */
+  font-size: 2.5em; /* Título bem maior que os dos cartões */
+  font-weight: var(--peso-fonte-bold);
+  line-height: var(--line-height-titulos);
+  color: var(--cor-primaria-texto);
+  margin: 0 0 var(--espacamento-sm) 0;
+}
+
+.post-meta {
+  font-size: 0.9em;
+  color: var(--cor-secundaria-texto);
+  margin: 0;
+}
+
+.post-feature-image {
+  margin: 0 0 var(--espacamento-lg) 0;
+  padding: 0;
+}
+
+.post-feature-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--borda-arredondada);
+  display: block; /* Para remover espaços indesejados */
+}
+
+.post-content {
+  font-size: 1.1em; /* Corpo do texto um pouco maior para leitura confortável */
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Estilos para elementos comuns dentro do conteúdo do post (gerado pelo Markdown) */
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  font-weight: var(--peso-fonte-bold);
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  line-height: var(--line-height-titulos);
+  color: var(--cor-primaria-texto);
+}
+
+.post-content p {
+  margin-bottom: 1.5em;
+}
+
+.post-content a {
+  color: var(--cor-verde-line);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--cor-verde-line);
+  transition: color 0.2s, border-bottom-style 0.2s;
+}
+
+.post-content a:hover {
+  color: #05a546;
+  border-bottom-style: solid;
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: var(--espacamento-lg);
+  margin-bottom: 1.5em;
+}
+
+.post-content li {
+  margin-bottom: var(--espacamento-sm);
+}
+
+.post-content blockquote {
+  border-left: 4px solid var(--cor-borda-suave);
+  padding-left: var(--espacamento-md);
+  margin: 2.5em 0;
+  font-style: italic;
+  color: var(--cor-secundaria-texto);
+}
