@@ -4,7 +4,7 @@ date: 2025-01-09 05:01:00 -03:00
 description: "Metas e objetivos são importantes, mas a chave está em como você caminha."
 categories: arquivo
 tags: [ohayo]
-img: "https://i1.wp.com/image.tmdb.org/t/p/original/8qJyfMnEBuYF8XnyY2sVNtOhd89.jpg?resize=600,338"
+img: "https://geanramos.com.br/img/8qJyfMnEBuYF8XnyY2sVNtOhd89.jpg"
 ---
 
 ![**A Caminhada na Vida: Importam Mais os Desvios](https://cdn.jsdelivr.net/gh/geanramos/files/img/rising-tag.png)
