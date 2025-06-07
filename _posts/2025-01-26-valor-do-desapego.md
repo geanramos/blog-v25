@@ -4,10 +4,10 @@ date: 2025-01-26 05:01:00 -03:00
 description: "Como desapegar das expectativas pode nos trazer paz e satisfação."
 categories: arquivo
 tags: [memories]
-img: "https://i1.wp.com/img.freepik.com/fotos-premium/menina-crianca-cheirando-uma-flor-de-peonia_561751-101.jpg?resize=600,338"
+img: "https://geanramos.com.br/img/menina-crianca-cheirando-uma-flor-de-peonia_561751-101.jpg"
 ---
 
-![Gean Ramos - Plante Sem Colher: Apreciando a Jornada da Vida](https://i1.wp.com/img.freepik.com/fotos-premium/menina-crianca-cheirando-uma-flor-de-peonia_561751-101.jpg?resize=600,338)
+![Gean Ramos - Plante Sem Colher: Apreciando a Jornada da Vida](https://geanramos.com.br/img/menina-crianca-cheirando-uma-flor-de-peonia_561751-101.jpg)
 
 > Ouça, Virgínia, é preciso amar o inútil. Criar pombos sem pensar em comê-los, plantar roseiras sem pensar em colher as rosas, escrever sem pensar em publicar, fazer coisas assim, sem esperar nada em troca. A distância mais curta entre dois pontos pode ser a linha reta, mas é nos caminhos curvos que se encontram as melhores coisas.
 
