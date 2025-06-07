@@ -4,7 +4,7 @@ date: 2025-01-26 05:00:00 -03:00
 description: "Reflexões sobre a vida e o amor incondicional de uma avó."
 categories: arquivo
 tags: [memories]
-img: "https://i1.wp.com/img.freepik.com/fotos-premium/uma-mulher-idosa-guia-sua-neta-enquanto-amassam-massa-em-conjunto-em-uma-bancada-da-cozinha-o-po-de-farinha-enche-o-ar-enquanto-desfrutam-deste-tempo-significativo-de-ligacao_564714-82999.jpg?resize=600,338"
+img: "https://geanramos.com.br/img/uma-mulher-idosa-guia-sua-neta-enquanto-amassam-massa-em-conjunto-em-uma-bancada-da-cozinha-o-po-de-farinha-enche-o-ar-enquanto-desfrutam-deste-tempo-significativo-de-ligacao_564714-82999.jpg"
 ---
 
 ![Gean Ramos - Memórias de Vovó Zélia: Amor Incondicional e Sabedoria](https://i1.wp.com/img.freepik.com/fotos-premium/uma-mulher-idosa-guia-sua-neta-enquanto-amassam-massa-em-conjunto-em-uma-bancada-da-cozinha-o-po-de-farinha-enche-o-ar-enquanto-desfrutam-deste-tempo-significativo-de-ligacao_564714-82999.jpg?resize=600,338)
