@@ -67,26 +67,24 @@
      position: relative;
    }
 
-   .capa-container {
-    max-width: 768px;
-    margin: 0 auto;
-    line-height: 0; 
-    background-image: url('https://telegram.org/img/tgme/pattern.svg?1');
-    background-repeat: repeat-x;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: auto 100vh;
-    background-color: #0000ff;
-    opacity: 0.5;
-   }
+.capa-container {
+  max-width: 768px;
+  margin: 0 auto;
+  position: relative; /* Necessário para posicionar a imagem filha */
+  height: 0; /* A altura será controlada pelo padding */
+  padding-top: 42.857%; /* (9 / 21) * 100% = proporção 21:9 */
+  background-color: var(--cor-borda-suave); /* Cor de fundo enquanto a imagem carrega */
+}
 
-   .capa {
-    width: 100%;
-    height: 276px; /* Mantendo a proporção 728x276, se capa-container for 728, ou ajuste */
-                    /* Se capa-container é 768px, altura=(276/728)*768 = 291px */
-    object-fit: cover;
-    display: block;
-   }
+.capa {
+  position: absolute; /* Preenche o espaço do container pai */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+  display: block;
+}
    
    .perfil-card {
     background-color: var(--cor-branco);
