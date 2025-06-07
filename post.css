@@ -1,42 +1,54 @@
-/* Conteúdo completo e corrigido para post.css */
-
 /* --- ESTILOS PARA PÁGINA DE POST INDIVIDUAL --- */
 
-.post-header {
-  text-align: left; /* Título e data alinhados à esquerda */
-  margin-bottom: var(--espacamento-lg);
+/* Esconde o botão "Seguir" na página de post, pois ele pertence ao perfil do site */
+.post-page-body .botao-whatsapp {
+  display: none;
 }
 
-.post-title { /* Nova classe para o título do post */
-  font-family: 'Roboto', sans-serif;
-  font-size: 2em; /* Tamanho grande para o título */
+/* Centraliza o título do post já que o botão Seguir foi removido */
+.post-page-body .perfil-header-info {
+  justify-content: center;
+}
+
+.post-page-body .perfil-nome-link {
+  text-align: center; /* Garante que o link do título se comporte bem */
+}
+
+/* Estilos para os novos elementos que substituem os do perfil */
+.post-title {
+  font-family: 'Roboto', sans-serif; /* Como você definiu, para melhor leitura */
+  font-size: 2.2em;
   font-weight: var(--peso-fonte-bold);
-  line-height: var(--line-height-titulos);
+  line-height: 1.2;
   color: var(--cor-primaria-texto);
-  margin: 0 0 5px 0; /* Pequena margem abaixo do título */
-}
-
-.post-meta { /* Nova classe para a data do post */
-  font-size: 0.9em;
-  color: var(--cor-secundaria-texto);
   margin: 0;
 }
 
-/* Adiciona espaço abaixo da imagem de destaque apenas na página de post */
-.post-feature-image {
-  margin-bottom: var(--espacamento-lg);
+.post-descricao {
+  font-size: 1.1em;
+  color: var(--cor-secundaria-texto);
+  text-align: center;
+  margin-top: var(--espacamento-sm);
+  margin-bottom: var(--espacamento-sm);
+  line-height: 1.5;
 }
 
+.post-meta {
+  font-size: 0.9em;
+  color: var(--cor-secundaria-texto);
+  text-align: center;
+  margin-top: 0; /* Ajuste fino */
+}
+
+/* Conteúdo do artigo */
 .post-content {
   font-size: 1.1em;
   line-height: 1.7;
   color: #333;
+  margin-top: var(--espacamento-lg); /* Espaço entre o card do topo e o conteúdo */
 }
 
-/* Estilos para elementos comuns dentro do conteúdo do post (gerado pelo Markdown) */
-.post-content h2,
-.post-content h3,
-.post-content h4 {
+.post-content h2, .post-content h3, .post-content h4 {
   font-weight: var(--peso-fonte-bold);
   margin-top: 2.5em;
   margin-bottom: 1em;
@@ -45,20 +57,19 @@
 }
 
 .post-content p { margin-bottom: 1.5em; }
+
 .post-content a {
   color: var(--cor-verde-line);
   text-decoration: none;
   border-bottom: 1px dotted var(--cor-verde-line);
-  transition: color 0.2s, border-bottom-style 0.2s;
 }
+
 .post-content a:hover {
   color: #05a546;
   border-bottom-style: solid;
 }
-.post-content ul, .post-content ol {
-  padding-left: var(--espacamento-lg);
-  margin-bottom: 1.5em;
-}
+
+.post-content ul, .post-content ol { padding-left: var(--espacamento-lg); margin-bottom: 1.5em; }
 .post-content li { margin-bottom: var(--espacamento-sm); }
 .post-content blockquote {
   border-left: 4px solid var(--cor-borda-suave);
@@ -68,92 +79,27 @@
   color: var(--cor-secundaria-texto);
 }
 
-/* --- SEÇÃO DE TAGS --- */
-.post-tags {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid var(--cor-borda-suave);
-}
-
-.post-tags h3 {
-  font-size: 1em;
-  font-weight: 700;
-  margin-bottom: 15px;
-  color: var(--cor-secundaria-texto);
-}
-
+/* Seção de Tags */
+.post-tags { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--cor-borda-suave); }
+.post-tags h3 { font-size: 1em; font-weight: 700; margin-bottom: 15px; color: var(--cor-secundaria-texto); }
 .tag-button {
-  display: inline-block;
-  background-color: var(--cor-fundo);
-  color: var(--cor-secundaria-texto);
-  padding: 5px 12px;
-  margin: 0 5px 5px 0;
-  border-radius: 4px;
-  font-size: 0.8em;
-  font-weight: 500;
-  text-decoration: none;
-  border: 1px solid var(--cor-borda-suave);
-  transition: all 0.2s ease;
+  display: inline-block; background-color: var(--cor-fundo); color: var(--cor-secundaria-texto); padding: 5px 12px;
+  margin: 0 5px 5px 0; border-radius: 4px; font-size: 0.8em; font-weight: 500; text-decoration: none;
+  border: 1px solid var(--cor-borda-suave); transition: all 0.2s ease;
 }
+.tag-button:hover { background-color: var(--cor-verde-line); color: var(--cor-branco); border-color: var(--cor-verde-line); text-decoration: none; }
 
-.tag-button:hover {
-  background-color: var(--cor-verde-line);
-  color: var(--cor-branco);
-  border-color: var(--cor-verde-line);
-  text-decoration: none;
-}
-
-/* --- SEÇÃO LEIA TAMBÉM --- */
-.leia-tambem {
-  margin-top: 60px;
-  padding-top: 30px;
-  border-top: 1px solid var(--cor-borda-suave);
-}
-
-.leia-tambem h2 {
-  text-align: left;
-  font-family: 'Roboto', sans-serif;
-  font-weight: var(--peso-fonte-bold);
-  font-size: 1.8em;
-  margin-bottom: 30px;
-  color: var(--cor-primaria-texto);
-}
-
-.tag-section {
-  margin-bottom: var(--espacamento-lg);
-}
-
+/* Seção Leia Também */
+.leia-tambem { margin-top: 60px; padding-top: 30px; border-top: 1px solid var(--cor-borda-suave); }
+.leia-tambem h2 { text-align: left; font-family: 'Roboto', sans-serif; font-weight: var(--peso-fonte-bold); font-size: 1.8em; margin-bottom: 30px; color: var(--cor-primaria-texto); }
+.tag-section { margin-bottom: var(--espacamento-lg); }
 .tag-section-title {
-  font-family: 'Roboto', sans-serif;
-  font-weight: var(--peso-fonte-bold);
-  font-size: 1.5em;
-  margin-top: var(--espacamento-lg);
-  margin-bottom: var(--espacamento-md);
-  padding-bottom: var(--espacamento-sm);
-  border-bottom: 3px solid var(--cor-verde-line);
-  display: inline-block;
+  font-family: 'Roboto', sans-serif; font-weight: var(--peso-fonte-bold); font-size: 1.5em;
+  margin-top: var(--espacamento-lg); margin-bottom: var(--espacamento-md); padding-bottom: var(--espacamento-sm);
+  border-bottom: 3px solid var(--cor-verde-line); display: inline-block;
 }
 
-/* --- SEÇÃO DE COMENTÁRIOS --- */
-.post-comentarios {
-  margin-top: 60px;
-  padding-top: 30px;
-  border-top: 1px solid var(--cor-borda-suave);
-}
-
-.post-comentarios h2 {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: var(--peso-fonte-bold);
-  font-size: 1.8em;
-  margin-bottom: 30px;
-  color: var(--cor-primaria-texto);
-}
-
-.fb-comments-placeholder {
-  background: var(--cor-fundo);
-  text-align: center;
-  padding: 40px 20px;
-  border-radius: var(--borda-arredondada);
-  color: var(--cor-secundaria-texto);
-}
+/* Seção de Comentários */
+.post-comentarios { margin-top: 60px; padding-top: 30px; border-top: 1px solid var(--cor-borda-suave); }
+.post-comentarios h2 { text-align: center; font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 1.8em; margin-bottom: 30px; color: var(--cor-primaria-texto); }
+.fb-comments-placeholder { background: var(--cor-fundo); text-align: center; padding: 40px 20px; border-radius: var(--borda-arredondada); color: var(--cor-secundaria-texto); }
