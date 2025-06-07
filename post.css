@@ -1,44 +1,30 @@
-/* Conteúdo completo para o arquivo: post.css */
+/* Conteúdo completo e corrigido para post.css */
 
 /* --- ESTILOS PARA PÁGINA DE POST INDIVIDUAL --- */
-.post-container {
-  max-width: 704px; /* DEFINE A LARGURA MÁXIMA DO CONTEÚDO DO POST */
-  margin-left: auto;  /* CENTRALIZA ESTE BLOCO DENTRO DO .container */
-  margin-right: auto;
-}
 
 .post-header {
-  text-align: center;
+  text-align: left; /* Título e data alinhados à esquerda */
   margin-bottom: var(--espacamento-lg);
-  padding-bottom: var(--espacamento-md);
-  border-bottom: 1px solid var(--cor-borda-suave);
 }
 
-.post-title {
+.post-title { /* Nova classe para o título do post */
   font-family: 'Roboto', sans-serif;
-  font-size: 2.5em;
+  font-size: 2em; /* Tamanho grande para o título */
   font-weight: var(--peso-fonte-bold);
   line-height: var(--line-height-titulos);
   color: var(--cor-primaria-texto);
-  margin: 0 0 var(--espacamento-sm) 0;
+  margin: 0 0 5px 0; /* Pequena margem abaixo do título */
 }
 
-.post-meta {
+.post-meta { /* Nova classe para a data do post */
   font-size: 0.9em;
   color: var(--cor-secundaria-texto);
   margin: 0;
 }
 
+/* Adiciona espaço abaixo da imagem de destaque apenas na página de post */
 .post-feature-image {
-  margin: 0 0 var(--espacamento-lg) 0;
-  padding: 0;
-}
-
-.post-feature-image img {
-  width: 100%;
-  height: auto;
-  border-radius: var(--borda-arredondada);
-  display: block;
+  margin-bottom: var(--espacamento-lg);
 }
 
 .post-content {
@@ -47,7 +33,10 @@
   color: #333;
 }
 
-.post-content h2, .post-content h3, .post-content h4 {
+/* Estilos para elementos comuns dentro do conteúdo do post (gerado pelo Markdown) */
+.post-content h2,
+.post-content h3,
+.post-content h4 {
   font-weight: var(--peso-fonte-bold);
   margin-top: 2.5em;
   margin-bottom: 1em;
@@ -79,7 +68,7 @@
   color: var(--cor-secundaria-texto);
 }
 
-/* --- SEÇÃO DE TAGS (NOVO) --- */
+/* --- SEÇÃO DE TAGS --- */
 .post-tags {
   margin-top: 40px;
   padding-top: 20px;
@@ -111,10 +100,10 @@
   background-color: var(--cor-verde-line);
   color: var(--cor-branco);
   border-color: var(--cor-verde-line);
-  text-decoration: none; /* Remover sublinhado do hover geral */
+  text-decoration: none;
 }
 
-/* --- SEÇÃO LEIA TAMBÉM (NOVO) --- */
+/* --- SEÇÃO LEIA TAMBÉM --- */
 .leia-tambem {
   margin-top: 60px;
   padding-top: 30px;
@@ -129,26 +118,9 @@
   margin-bottom: 30px;
   color: var(--cor-primaria-texto);
 }
-/* Em post.css */
-
-/* --- NOVOS ESTILOS PARA A SEÇÃO LEIA TAMBÉM --- */
-.leia-tambem {
-  margin-top: 60px;
-  padding-top: 30px;
-  border-top: 1px solid var(--cor-borda-suave);
-}
-
-.leia-tambem h2 {
-  text-align: left; /* Alinhado à esquerda para dar título à seção */
-  font-family: 'Roboto', sans-serif;
-  font-weight: var(--peso-fonte-bold);
-  font-size: 1.8em;
-  margin-bottom: 30px;
-  color: var(--cor-primaria-texto);
-}
 
 .tag-section {
-  margin-bottom: var(--espacamento-lg); /* Espaço entre cada grupo de tags */
+  margin-bottom: var(--espacamento-lg);
 }
 
 .tag-section-title {
@@ -159,12 +131,10 @@
   margin-bottom: var(--espacamento-md);
   padding-bottom: var(--espacamento-sm);
   border-bottom: 3px solid var(--cor-verde-line);
-  display: inline-block; /* Faz a borda ter a largura do texto */
+  display: inline-block;
 }
 
-/* Os estilos para .cartao-artigo já existem em home.css */
-
-/* --- SEÇÃO DE COMENTÁRIOS (NOVO) --- */
+/* --- SEÇÃO DE COMENTÁRIOS --- */
 .post-comentarios {
   margin-top: 60px;
   padding-top: 30px;
