@@ -4,7 +4,7 @@ date: 2024-06-11 12:00:47 -03:00
 description: Desvende o caminho da verdadeira liderança, olhe para dentro. Liberte-se das amarras externas, alinhe-se com seus valores e seja autêntico.
 categories: ohayo
 tags: [ohayo]
-img: "https://i1.wp.com/media.gazetadopovo.com.br/2022/10/21110744/Shutterstock_2084661583.jpg?resize=767,431"
+img: "https://geanramos.com.br/img/Shutterstock_2084661583.jpg"
 ---
 
 ![FILOSOFANDO](https://cdn.jsdelivr.net/gh/geanramos/files/img/filosofando.png)
