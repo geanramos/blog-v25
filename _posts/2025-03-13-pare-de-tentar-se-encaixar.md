@@ -3,7 +3,7 @@ title: "Pare de tentar se encaixar e comece a se destacar!"
 date: 2025-03-13 12:56:00 -03:00
 description: "Você não precisa seguir todas as tendências para ser incrível. Ser autêntico é o que realmente faz você crescer. Chega de copiar, bora ser você! 🚀"
 tags: [ohayo]
-img: "https://i1.wp.com/img.freepik.com/free-photo/side-view-carefree-man-enjoying-freedom-with-arms-outstretched_23-2148182869.jpg?resize=600,338"
+img: "https://geanramos.com.br/img/side-view-carefree-man-enjoying-freedom-with-arms-outstretched_23-2148182869.jpg"
 ---
 
 **maria vai com as outras**
@@ -12,7 +12,7 @@ Você já parou pra pensar **por que** se esforça tanto pra se encaixar, quando
 
 ![maria vai com as outras](https://cdn.jsdelivr.net/gh/geanramos/files/img/rising-tag.png)
 **Maria Vai Com as Outras? Eu Não!**
-![seja voce mesmo](https://i1.wp.com/img.freepik.com/free-photo/side-view-carefree-man-enjoying-freedom-with-arms-outstretched_23-2148182869.jpg?resize=600,338)
+![Pare de tentar se encaixar e comece a se destacar](https://geanramos.com.br/img/side-view-carefree-man-enjoying-freedom-with-arms-outstretched_23-2148182869.jpg)
 > “Ser eu mesmo!”
 
 ## **Autenticidade: O Novo Luxo da Geração Trends**
