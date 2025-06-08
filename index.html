@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% include header-home.html %}
+
+<main class="container">
+  {% for post in site.posts limit:100 %}
+    {% include cartao-artigo.html %}
+  {% endfor %}
+</main>
+
+{% include footer.html %}

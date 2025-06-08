@@ -1,22 +1,22 @@
 /* --- ESTILOS PARA PÁGINA DE POST INDIVIDUAL --- */
 
-/* Esconde o botão "Seguir" na página de post, pois ele pertence ao perfil do site */
+/* Na página de post, o botão "Seguir" não faz sentido */
 .post-page-body .botao-whatsapp {
-  display: none;
+  display: none; 
 }
 
-/* Centraliza o título do post já que o botão Seguir foi removido */
+/* Ajuste para o header do perfil na página de post, para o título ter mais espaço */
 .post-page-body .perfil-header-info {
   justify-content: center;
 }
 
 .post-page-body .perfil-nome-link {
-  text-align: center; /* Garante que o link do título se comporte bem */
+  text-align: center;
 }
 
-/* Estilos para os novos elementos que substituem os do perfil */
+/* Estilos para os elementos do cabeçalho do post dentro do .perfil-card */
 .post-title {
-  font-family: 'Roboto', sans-serif; /* Como você definiu, para melhor leitura */
+  font-family: 'Roboto', sans-serif;
   font-size: 2.2em;
   font-weight: var(--peso-fonte-bold);
   line-height: 1.2;
@@ -37,7 +37,7 @@
   font-size: 0.9em;
   color: var(--cor-secundaria-texto);
   text-align: center;
-  margin-top: 0; /* Ajuste fino */
+  margin-top: 0;
 }
 
 /* Conteúdo do artigo */
@@ -45,7 +45,7 @@
   font-size: 1.1em;
   line-height: 1.7;
   color: #333;
-  margin-top: var(--espacamento-lg); /* Espaço entre o card do topo e o conteúdo */
+  margin-top: var(--espacamento-lg);
 }
 
 .post-content h2, .post-content h3, .post-content h4 {
