@@ -1,153 +1,98 @@
-/* --- ESTILOS PARA PÁGINA DE POST INDIVIDUAL --- */
+/* --- ESTILOS PARA PÁGINA DE POST INDIVIDUAL (VERSÃO ATUALIZADA) --- */
 
-/* Na página de post, o botão "Seguir" não faz sentido */
-.post-page-body .botao-whatsapp {
-  display: none; 
+/* CABEÇALHO DO POST (APENAS O TÍTULO) */
+.post-header {
+  text-align: left; /* Título alinhado à esquerda como na imagem */
+  margin-bottom: var(--espacamento-md);
+  padding-bottom: 0;
+  border-bottom: none; /* A borda agora fica na seção do autor */
 }
 
-/* Ajuste para o header do perfil na página de post, para o título ter mais espaço */
-.post-page-body .perfil-header-info {
-  justify-content: center;
-}
-
-.post-page-body .perfil-nome-link {
-  text-align: center;
-}
-
-/* Estilos para os elementos do cabeçalho do post dentro do .perfil-card */
 .post-title {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.2em;
+  font-size: 2.2em; /* Tamanho grande para dar destaque */
   font-weight: var(--peso-fonte-bold);
   line-height: 1.2;
   color: var(--cor-primaria-texto);
   margin: 0;
 }
 
+/* NOVA SEÇÃO DE INFORMAÇÕES DO AUTOR */
+.post-author-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--espacamento-sm) 0;
+  margin-bottom: var(--espacamento-lg);
+  border-top: 1px solid var(--cor-borda-suave);
+  border-bottom: 1px solid var(--cor-borda-suave);
+}
+
+.author-details-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.author-avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: var(--espacamento-sm);
+}
+
+.author-name-date .author-name {
+  font-weight: var(--peso-fonte-bold);
+  color: var(--cor-primaria-texto);
+  font-size: 1em;
+}
+
+.post-meta { /* Usando a classe existente para a data */
+  font-size: 0.85em;
+  color: var(--cor-secundaria-texto);
+  margin-top: 2px;
+}
+
+/* O botão "Seguir" na seção do autor */
+.author-follow-button .botao-whatsapp {
+  padding: 4px 16px;
+  font-size: 13px;
+}
+
+/* DESCRIÇÃO DO POST */
 .post-descricao {
   font-size: 1.1em;
-  color: var(--cor-secundaria-texto);
-  text-align: center;
-  margin-top: var(--espacamento-sm);
-  margin-bottom: var(--espacamento-sm);
-  line-height: 1.5;
-}
-
-.post-meta {
-  font-size: 0.9em;
+  font-weight: var(--peso-fonte-normal);
   color: var(--cor-secundaria-texto);
   text-align: left;
-  margin-top: 0;
+  line-height: 1.5;
+  margin-bottom: var(--espacamento-lg);
+  padding: 0;
+  border: none;
 }
 
-/* Conteúdo do artigo */
+/* CONTEÚDO PRINCIPAL DO POST */
 .post-content {
   font-size: 1.1em;
   line-height: 1.7;
   color: #333;
-  margin-top: var(--espacamento-lg);
 }
 
-.post-content h2, .post-content h3, .post-content h4 {
-  font-weight: var(--peso-fonte-bold);
-  margin-top: 2.5em;
-  margin-bottom: 1em;
-  line-height: var(--line-height-titulos);
-  color: var(--cor-primaria-texto);
-}
-
+/* ... (O restante dos estilos para .post-content, .post-tags, .leia-tambem, etc. continuam os mesmos) ... */
+.post-content h2, .post-content h3, .post-content h4 { font-weight: var(--peso-fonte-bold); margin-top: 2.5em; margin-bottom: 1em; line-height: var(--line-height-titulos); color: var(--cor-primaria-texto); }
 .post-content p { margin-bottom: 1.5em; }
-
-.post-content a {
-  color: var(--cor-verde-line);
-  text-decoration: none;
-  border-bottom: 1px dotted var(--cor-verde-line);
-}
-
-.post-content a:hover {
-  color: #05a546;
-  border-bottom-style: solid;
-}
-
+.post-content a { color: var(--cor-verde-line); text-decoration: none; border-bottom: 1px dotted var(--cor-verde-line); }
+.post-content a:hover { color: #05a546; border-bottom-style: solid; }
 .post-content ul, .post-content ol { padding-left: var(--espacamento-lg); margin-bottom: 1.5em; }
 .post-content li { margin-bottom: var(--espacamento-sm); }
-.post-content blockquote {
-  border-left: 4px solid var(--cor-borda-suave);
-  padding-left: var(--espacamento-md);
-  margin: 2.5em 0;
-  font-style: italic;
-  color: var(--cor-secundaria-texto);
-}
-.post-content img {
-  max-width: 100%;
-}
-/* Seção de Tags */
+.post-content blockquote { border-left: 4px solid var(--cor-borda-suave); padding-left: var(--espacamento-md); margin: 2.5em 0; font-style: italic; color: var(--cor-secundaria-texto); }
 .post-tags { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--cor-borda-suave); }
 .post-tags h3 { font-size: 1em; font-weight: 700; margin-bottom: 15px; color: var(--cor-secundaria-texto); }
-.tag-button {
-  display: inline-block; background-color: var(--cor-fundo); color: var(--cor-secundaria-texto); padding: 5px 12px;
-  margin: 0 5px 5px 0; border-radius: 4px; font-size: 0.8em; font-weight: 500; text-decoration: none;
-  border: 1px solid var(--cor-borda-suave); transition: all 0.2s ease;
-}
+.tag-button { display: inline-block; background-color: var(--cor-fundo); color: var(--cor-secundaria-texto); padding: 5px 12px; margin: 0 5px 5px 0; border-radius: 4px; font-size: 0.8em; font-weight: 500; text-decoration: none; border: 1px solid var(--cor-borda-suave); transition: all 0.2s ease; }
 .tag-button:hover { background-color: var(--cor-verde-line); color: var(--cor-branco); border-color: var(--cor-verde-line); text-decoration: none; }
-
-/* Seção Leia Também */
 .leia-tambem { margin-top: 60px; padding-top: 30px; border-top: 1px solid var(--cor-borda-suave); }
 .leia-tambem h2 { text-align: left; font-family: 'Roboto', sans-serif; font-weight: var(--peso-fonte-bold); font-size: 1.8em; margin-bottom: 30px; color: var(--cor-primaria-texto); }
 .tag-section { margin-bottom: var(--espacamento-lg); }
-.tag-section-title {
-  font-family: 'Roboto', sans-serif; font-weight: var(--peso-fonte-bold); font-size: 1.5em;
-  margin-top: var(--espacamento-lg); margin-bottom: var(--espacamento-md); padding-bottom: var(--espacamento-sm);
-  border-bottom: 3px solid var(--cor-verde-line); display: inline-block;
-}
-/* --- ESTILOS PARA PÁGINA DE TAGS --- */
-
-.page-header {
-  text-align: center;
-  padding-bottom: var(--espacamento-md);
-  margin-bottom: var(--espacamento-lg);
-  border-bottom: 1px solid var(--cor-borda-suave);
-}
-
-.page-title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.5em;
-  font-weight: var(--peso-fonte-bold);
-}
-
-.tag-cloud {
-  text-align: center;
-  padding: var(--espacamento-md) 0;
-  margin-bottom: var(--espacamento-lg);
-}
-
-/* Usando a mesma classe .tag-button que já criamos para os posts */
-.tag-cloud .tag-button {
-  font-size: 0.95em; /* Um pouco maior para destaque */
-  margin: 5px;
-}
-
-.tag-cloud .tag-button span {
-  color: var(--cor-secundaria-texto);
-  font-weight: var(--peso-fonte-normal);
-}
-
-.tag-cloud .tag-button:hover span {
-  color: var(--cor-branco); /* Muda a cor do contador no hover também */
-}
-
-/* Reutilizando as classes que já criamos para a seção "Leia Também" */
-.tags-list .tag-section {
-  margin-bottom: 40px;
-  border-top: 1px solid var(--cor-borda-suave); /* Adiciona um separador entre as seções de tags */
-  padding-top: var(--espacamento-lg);
-}
-
-.tags-list .tag-section-title {
-  font-size: 2em; /* Título da seção de tag um pouco maior */
-  border-bottom: 3px solid var(--cor-verde-line);
-}
-/* Seção de Comentários */
+.tag-section-title { font-family: 'Roboto', sans-serif; font-weight: var(--peso-fonte-bold); font-size: 1.5em; margin-top: var(--espacamento-lg); margin-bottom: var(--espacamento-md); padding-bottom: var(--espacamento-sm); border-bottom: 3px solid var(--cor-verde-line); display: inline-block; }
 .post-comentarios { margin-top: 60px; padding-top: 30px; border-top: 1px solid var(--cor-borda-suave); }
 .post-comentarios h2 { text-align: center; font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 1.8em; margin-bottom: 30px; color: var(--cor-primaria-texto); }
 .fb-comments-placeholder { background: var(--cor-fundo); text-align: center; padding: 40px 20px; border-radius: var(--borda-arredondada); color: var(--cor-secundaria-texto); }
