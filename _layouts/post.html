@@ -1,40 +1,63 @@
 ---
-layout: default
-body_class: post-page-body
 ---
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} | {{ site.title }}</title>
 
-{% include header-post.html %}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+  <link href="post-modelo.css?v=02" rel="stylesheet" />
+ </head>
+ <body>
+  <header class="post-banner">
+   <img src="https://picsum.photos/768/329?random=20" alt="{{ page.title }}" />
+  </header>
 
-<main class="container">
-  <article class="post-container">
-
-    <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
+  <main class="content-container">
+   <article class="post-full">
+    <header class="post-full-header">
+     <h1 class="post-full-title">{{ page.title }}</h1>
     </header>
 
-    <section class="post-author-info">
-      <div class="author-details-wrapper">
-        <div class="author-avatar">
-          <img src="{{ page.author_avatar | default: site.avatar | default: 'https://avatars.githubusercontent.com/u/6352393?v=4' | relative_url }}" alt="{{ page.author | default: site.author.name }}">
-        </div>
-        <div class="author-name-date">
-          <div class="author-name">{{ page.author | default: site.author.name | default: "Gean Ramos" }}</div>
-          <div class="post-meta">{{ page.date | date: "%d de %B de %Y" }}</div>
-        </div>
+    <section class="post-full-meta">
+     <div class="author-block">
+      <a href="index.html" class="author-avatar-link">
+       <div class="author-avatar">
+        <img src="{{ site.avatar }}" alt="Avatar {{ site.title }}" />
+       </div>
+      </a>
+      <div class="author-meta-info">
+       <a href="index.html" class="author-name-link">
+        <span class="author-name">{{ site.title }}</span>
+       </a>
+       <div class="meta-line">
+        <span>{{ page.date | date: "%d de %B de %Y" }}</span>
+       </div>
       </div>
-      <div class="author-follow-button">
-        <a href="{{ page.author_follow_url | default: '#' }}" target="_blank" class="botao-whatsapp">Seguir</a>
+     </div>
+     <div class="follow-button-block">
+      <!--<button class="follow-button">SEGUIR</button>-->
+      <script defer src="https://static.addtoany.com/menu/page.js"></script>
+      <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+       <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+       <a class="a2a_button_facebook"></a>
+       <a class="a2a_button_twitter"></a>
+       <a class="a2a_button_whatsapp"></a>
       </div>
+      <script>
+       var a2a_config = a2a_config || {};
+       a2a_config.locale = "pt-BR";
+      </script>
+     </div>
     </section>
 
-    {% if page.description %}
-      <p class="post-descricao">{{ page.description }}</p>
-    {% endif %}
-    
-    <section class="post-content">
+    <section class="post-full-content">
       {{ content }}
     </section>
-
     {% if page.tags.size > 0 %}
     <section class="post-tags">
       <h3>Tags:</h3>
@@ -43,10 +66,8 @@ body_class: post-page-body
       {% endfor %}
     </section>
     {% endif %}
-
-  </article>
-
-  <section class="leia-tambem">
+   </article>
+   <section class="leia-tambem">
     <h2>Leia Também</h2>
     {% assign related_tags = "Jekyll,CSS,Desenvolvimento" | split: "," %}
     {% for tag in related_tags %}
@@ -64,13 +85,20 @@ body_class: post-page-body
       </div>
     {% endfor %}
   </section>
-
-  <section class="post-comentarios">
-      <h2>Comentários</h2>
-      <div class="fb-comments-placeholder">
-        <p>A caixa de comentários do Facebook será carregada aqui.</p>
-      </div>
-  </section>
-</main>
-
-{% include footer.html %}
+   <section class="post-comentarios">
+    <h2>Comentários</h2>
+    <div class="fb-comments-placeholder">
+     <p>A caixa de comentários do Facebook será carregada aqui.</p>
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <div class="footer-links">
+    <a href="#" title="Termos de Uso">Termos de Uso</a>
+    <a href="#" title="Política de Privacidade">Política de Privacidade</a>
+    <a href="./radio.html" title="Radio">Radio</a>
+   </div>
+   <p class="footer-copyright">© Gean Ramos</p>
+  </footer>
+ </body>
+</html>
