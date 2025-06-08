@@ -10,12 +10,14 @@
         </div>
         <div class="perfil-header-info">
             <a href="./index.html" class="perfil-nome-link">
-                <h1 class="perfil-nome">{{ page.title }}</h1>
+                <!--<h1 class="perfil-nome">{{ page.title }}</h1>-->
+                <h1 class="post-title">{{ page.title }}</h1>
             </a>
             <a href="#" target="_blank" class="botao-whatsapp">Seguir</a>
         </div>
 
         <p class="perfil-descricao">{{ page.description }}</p>
-        <p class="perfil-seguidores">496K Seguidores</p>
+        <!--<p class="perfil-seguidores">{{ page.date | date: "%d de %B de %Y" }}</p>-->
+        <p class="post-meta">{{ page.date | date: "%d de %B de %Y" }}</p>
     </section>
   </header>
