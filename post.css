@@ -78,7 +78,9 @@
   font-style: italic;
   color: var(--cor-secundaria-texto);
 }
-
+.post-content img {
+  max-width: 100%;
+}
 /* Seção de Tags */
 .post-tags { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--cor-borda-suave); }
 .post-tags h3 { font-size: 1em; font-weight: 700; margin-bottom: 15px; color: var(--cor-secundaria-texto); }
