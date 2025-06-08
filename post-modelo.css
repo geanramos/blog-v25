@@ -477,3 +477,42 @@ body {
   height: 100%;
   border: 0; /* Remove qualquer borda padrão do iframe */
 }
+/* --- ESTILOS PARA BLOCOS DE CÓDIGO (pre, code) --- */
+
+/* 1. Estilo para código INLINE (dentro de parágrafos) */
+/* O seletor :not(pre) > code garante que este estilo não se aplique a blocos de código */
+
+:not(pre) > code {
+  background-color: #eef0f2; /* Um fundo cinza bem suave */
+  color: #d63384; /* Um tom de rosa/magenta, comum para código */
+  padding: 3px 6px;
+  font-size: 90%; /* Um pouco menor que o texto ao redor */
+  border-radius: 4px;
+  font-family: 'Menlo', 'Monaco', 'Consolas', "Courier New", monospace; /* Fonte monoespaçada */
+}
+
+
+/* 2. Estilo para BLOCOS de código (usando a tag <pre>) */
+
+.post-full-content pre {
+  background-color: #282c34; /* Fundo escuro, ótimo para contraste */
+  color: #abb2bf; /* Texto cinza claro para boa leitura em fundo escuro */
+  border: 1px solid #ddd;
+  border-radius: var(--borda-arredondada);
+  padding: var(--espacamento-md);
+  overflow-x: auto; /* ESSENCIAL: Adiciona scroll horizontal se o código for muito longo */
+  line-height: 1.5;
+  font-size: 0.9em; /* Tamanho da fonte para o bloco de código */
+}
+
+/* Garante que a tag <code> dentro de um <pre> não pegue
+   o estilo do código inline.
+*/
+.post-full-content pre code {
+  font-family: 'Menlo', 'Monaco', 'Consolas', "Courier New", monospace; /* Fonte monoespaçada */
+  background-color: transparent; /* Remove o fundo do estilo inline */
+  color: inherit; /* Herda a cor do <pre> (cinza claro) */
+  padding: 0;
+  font-size: 100%; /* O tamanho já é definido pelo <pre> */
+  border-radius: 0;
+}
