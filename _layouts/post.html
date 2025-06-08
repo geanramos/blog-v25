@@ -1,37 +1,57 @@
 ---
-layout: main
+layout: default
+body_class: post-page-body
 ---
-<article class="article-page">
-<div class="page-content">
-  <!-- Editado por gean.me - 2025-05-12 -->
-  <div class="page-cover-image">
-    <figure>
-      <img class="page-image" src="{{ page.img | default: 'https://picsum.photos/680/383' }}" alt="{{ page.title }}">
-      {% if page.fig-caption %}
-        <figcaption>{{ page.fig-caption }}</figcaption>
-      {% endif %}
-    </figure>
-  </div> <!-- End Page Cover Image -->
-</div>
-    <div class="wrap-content">
-      <header class="header-page">
-        <h1 class="page-title">{{page.title}}</h1>
-        <div class="page-date"><span>{{ page.date | date: '%d/%m/%Y' }}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-      </header>
-      {{content | markdownify}}
-      <div class="page-footer">
-        <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Compartilhe no Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Compartilhe no Facebook" rel="nofollow" target="_blank">Facebook</a>
-          <a href="https://bsky.app/compose?text={{ page.title }} {{ site.url }}{{ page.url }}" title="Compartilhe no BlueSky" rel="nofollow" target="_blank">BlueSky</a>
-        </div>
-        <div class="page-tag">
-          {% for tag in page.tags %}
-            <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
-          {% endfor %}
-        </div>
+
+{% include header-post.html %}
+
+<main class="container">
+  <article class="post-container">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-meta">{{ page.date | date: "%d de %B de %Y" }}</p>
+    </header>
+    
+    <section class="post-content">
+      {{ content }}
+    </section>
+
+    {% if page.tags.size > 0 %}
+    <section class="post-tags">
+      <h3>Tags:</h3>
+      {% for tag in page.tags %}
+        <a href="/tags/#{{ tag | slugify }}" class="tag-button">{{ tag }}</a>
+      {% endfor %}
+    </section>
+    {% endif %}
+  </article>
+
+  <section class="leia-tambem">
+    <h2>Leia Também</h2>
+    
+    {% assign related_tags = "Jekyll,CSS,Desenvolvimento" | split: "," %}
+    {% for tag in related_tags %}
+      <div class="tag-section">
+        <h3 class="tag-section-title">{{ tag }}</h3>
+        {% assign count = 0 %}
+        {% for post in site.posts %}
+          {% if post.url != page.url %}
+            {% if post.tags contains tag and count < 3 %}
+              {% include cartao-artigo.html %}
+              {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
       </div>
-      {% include disqus.html %}
-    </div> <!-- End Wrap Content -->
-  </div> <!-- End Page Content -->
-</article> <!-- End Article Page -->
+    {% endfor %}
+  </section>
+
+  <section class="post-comentarios">
+    <h2>Comentários</h2>
+    <div class="fb-comments-placeholder">
+      <p>A caixa de comentários do Facebook será carregada aqui.</p>
+    </div>
+  </section>
+</main>
+
+{% include footer.html %}
