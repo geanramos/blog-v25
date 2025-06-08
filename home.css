@@ -318,3 +318,47 @@ a:hover {
    text-decoration: none;
    color: #0000ff;
 }
+/* --- ESTILOS PARA PAGINAÇÃO --- */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--espacamento-md);
+  margin-top: var(--espacamento-lg);
+  border-top: 1px solid var(--cor-borda-suave);
+}
+
+.pagination a, .pagination span {
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: var(--peso-fonte-bold);
+  font-size: 0.9em;
+  border: 1px solid transparent; /* Adicionado para manter o tamanho consistente */
+}
+
+.pagination a {
+  background-color: var(--cor-verde-line);
+  color: var(--cor-branco);
+  transition: background-color 0.2s;
+}
+
+.pagination a:hover {
+  background-color: #05a546; /* Verde mais escuro no hover */
+  text-decoration: none;
+  color: var(--cor-branco);
+}
+
+.pagination span.disabled {
+  color: #b0b0b0; /* Cinza para texto desabilitado */
+  background-color: #e9ecef; /* Fundo do botão desabilitado */
+  border: 1px solid #dee2e6;
+  cursor: not-allowed;
+}
+
+.pagination .page_number {
+  background-color: transparent;
+  border: none;
+  color: var(--cor-secundaria-texto);
+  font-weight: var(--peso-fonte-normal);
+}
