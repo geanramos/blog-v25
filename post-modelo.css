@@ -455,3 +455,25 @@ body {
        text-decoration: none;
        color: #06ff16;
    }
+/* --- CSS PARA VÍDEOS RESPONSIVOS (YOUTUBE) --- */
+
+.video-container, .embed-responsive {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* Proporção de 16:9 (calculado como 9 / 16 = 0.5625) */
+  margin-top: var(--espacamento-md);
+  margin-bottom: var(--espacamento-md); /* Espaçamento acima e abaixo do vídeo */
+  overflow: hidden;
+  border-radius: var(--borda-arredondada); /* Opcional: para ter bordas arredondadas */
+  box-shadow: var(--sombra-card); /* Opcional: para uma sombra sutil */
+}
+
+.video-container iframe, .embed-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; /* Remove qualquer borda padrão do iframe */
+}
