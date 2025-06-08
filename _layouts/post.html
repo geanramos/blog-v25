@@ -6,7 +6,31 @@ body_class: post-page-body
 {% include header-post.html %}
 
 <main class="container">
-  <article class="post-container">    
+  <article class="post-container">
+
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+
+    <section class="post-author-info">
+      <div class="author-details-wrapper">
+        <div class="author-avatar">
+          <img src="{{ page.author_avatar | default: site.avatar | default: 'https://avatars.githubusercontent.com/u/6352393?v=4' | relative_url }}" alt="{{ page.author | default: site.author.name }}">
+        </div>
+        <div class="author-name-date">
+          <div class="author-name">{{ page.author | default: site.author.name | default: "Tisha News" }}</div>
+          <div class="post-meta">{{ page.date | date: "%d de %B de %Y" }}</div>
+        </div>
+      </div>
+      <div class="author-follow-button">
+        <a href="{{ page.author_follow_url | default: '#' }}" target="_blank" class="botao-whatsapp">Seguir</a>
+      </div>
+    </section>
+
+    {% if page.description %}
+      <p class="post-descricao">{{ page.description }}</p>
+    {% endif %}
+    
     <section class="post-content">
       {{ content }}
     </section>
@@ -19,19 +43,19 @@ body_class: post-page-body
       {% endfor %}
     </section>
     {% endif %}
+
   </article>
 
   <section class="leia-tambem">
     <h2>Leia Também</h2>
-    
-    {% assign related_tags = "memories,ohayo,wow" | split: "," %}
+    {% assign related_tags = "Jekyll,CSS,Desenvolvimento" | split: "," %}
     {% for tag in related_tags %}
       <div class="tag-section">
         <h3 class="tag-section-title">{{ tag }}</h3>
         {% assign count = 0 %}
         {% for post in site.posts %}
           {% if post.url != page.url %}
-            {% if post.tags contains tag and count < 5 %}
+            {% if post.tags contains tag and count < 3 %}
               {% include cartao-artigo.html %}
               {% assign count = count | plus: 1 %}
             {% endif %}
@@ -42,10 +66,10 @@ body_class: post-page-body
   </section>
 
   <section class="post-comentarios">
-    <h2>Comentários</h2>
-    <div class="fb-comments-placeholder">
-      <p>A caixa de comentários do Facebook será carregada aqui.</p>
-    </div>
+      <h2>Comentários</h2>
+      <div class="fb-comments-placeholder">
+        <p>A caixa de comentários do Facebook será carregada aqui.</p>
+      </div>
   </section>
 </main>
 
