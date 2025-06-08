@@ -1,0 +1,13 @@
+<div class="cartao-artigo">
+  <a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="cartao-artigo-link-imagem">
+      <figure class="cartao-artigo-imagem-wrapper">
+          <img src="{% if post.img %}https://images.weserv.nl/?w=150&h=86&output=jpg&q=80&t=square&url={{ post.img | absolute_url }}{% else %}https://picsum.photos/150/86{% endif %}" alt="{{ post.title }}">
+      </figure>
+  </a>
+  <div class="cartao-artigo-conteudo">
+      <a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="cartao-artigo-link-titulo">
+          <h3 class="cartao-artigo-titulo">{{ post.title }}</h3>
+      </a>
+      <p class="cartao-artigo-data">{{ post.date | date: "%d de %B de %Y" }}</p>
+  </div>
+</div>

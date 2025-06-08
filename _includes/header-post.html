@@ -1,0 +1,5 @@
+<header class="site-header">
+  <div class="capa-container">
+      <img class="capa" src="{% if page.img %}https://images.weserv.nl/?w=768&h=329&output=jpg&q=80&fit=cover&url={{ page.img | absolute_url }}{% else %}https://picsum.photos/768/329{% endif %}" alt="{{ page.title }}">
+  </div>
+</header>
