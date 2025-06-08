@@ -8,6 +8,28 @@ layout: default
   {% for post in paginator.posts %}
     {% include cartao-artigo.html %}
   {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">Anterior</a>
+    {% else %}
+      <span class="previous disabled">Anterior</span>
+    {% endif %}
+
+    <span class="page_number">
+      Página {{ paginator.page }} de {{ paginator.total_pages }}
+    </span>
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="next">Próxima</a>
+    {% else %}
+      <span class="next disabled">Próxima</span>
+    {% endif %}
+  </div>
+  {% endif %}
+
+</main>
   </main>
 
 {% include footer.html %}
