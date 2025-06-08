@@ -3,59 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Título do Post | Nome do Site</title>
-  <link rel="icon" href="https://geanramos.com.br/favicon.png" sizes="192x192" />
-  <link rel="preconnect" href="https://picsum.photos" crossorigin>
+  <title>AQUI FICARÁ O TÍTULO DO POST | Nome do Site</title>
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link href="./home.css?v=01" rel="stylesheet"> 
-  <link href="./post.css?v=01" rel="stylesheet"> 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZBPFV014K"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-TZBPFV014K', {'cookie_domain': 'auto'});
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="post-modelo.css?v=02" rel="stylesheet">
 </head>
-<body class="post-page-body"> <header class="site-header">
-    <div class="capa-container">
-        <img class="capa" src="https://picsum.photos/id/237/768/329" alt="Título do Post de Exemplo">
-    </div>
-    <section class="perfil-card">
-        <div class="avatar-wrapper">
-            <a href="#"> 
-                <img class="avatar" src="https://avatars.githubusercontent.com/u/6352393?v=4" alt="Avatar do Autor">
-            </a>
-        </div>
-        <div class="perfil-header-info">
-            <h1 class="post-title">Este é o Título do Seu Incrível Post de Exemplo</h1>
-            <a href="#" target="_blank" class="botao-whatsapp">Seguir</a>
-        </div>
-        <p class="post-descricao">Esta é a descrição curta e impactante do seu post, que serve como um subtítulo.</p>
-        <p class="post-meta">07 de Junho de 2025</p>
-    </section>
-  </header>
+<body>
 
-  <main class="container">
-    <article class="post-container">
-      <section class="post-content">
-        <p>Este é o parágrafo inicial do seu artigo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <h2>Um Subtítulo para Organizar o Conteúdo</h2>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <blockquote>Esta é uma citação em bloco (blockquote), usada para destacar uma frase ou parágrafo importante.</blockquote>
-      </section>
+    <header class="post-banner">
+        <img src="https://picsum.photos/768/329?random=20" alt="AQUI FICARÁ O TÍTULO DO POST">
+    </header>
 
+    <main class="content-container">
+        <article class="post-full">
+            
+            <header class="post-full-header">
+                <h1 class="post-full-title">AQUI FICARÁ O TÍTULO DO POST</h1>
+            </header>
+
+            <section class="post-full-meta">
+                <div class="author-block">
+                    <div class="author-avatar">
+                        <img src="https://avatars.githubusercontent.com/u/6352393?v=4" alt="Avatar do Autor">
+                    </div>
+                    <div class="author-meta-info">
+                        <span class="author-name">Gean Ramos</span>
+                        <div class="meta-line">
+                            <span>31/12/2024</span>
+                            <span class="meta-separator">|</span>
+                            <span>HOME</span>
+                            <span class="meta-separator">|</span>
+                            <span>POLITICA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="follow-button-block">
+                    <button class="follow-button">SEGUIR</button>
+                </div>
+            </section>
+
+            <section class="post-full-content">
+                <p>Gente, vamos combinar uma coisa: viver no modo automático, sem saber nem quem a gente é direito, tá fora de moda. Se você ainda não deu um Google em você mesmo pra entender sua essência, tá mais do que na hora de fazer isso, tá?</p>
+
+                    <p><img src="https://picsum.photos/707/329?random=19" alt="Imagem dentro do conteúdo" style="width: 704px;"></p>
+
+                <p>E não é drama, é realidade: <strong>quem não se conhece, se perde nos outros</strong>. Aí vira um caos – tipo misturar sabão em pó com glitter e achar que tá tudo certo. (Não tá.)</p>
+            </section>
       <section class="post-tags">
         <h3>Tags:</h3>
         <a href="/tags/#jekyll" class="tag-button">Jekyll</a>
         <a href="/tags/#css" class="tag-button">CSS</a>
         <a href="/tags/#desenvolvimento" class="tag-button">Desenvolvimento</a>
       </section>
-
-    </article>
-
+        </article>
 <section class="leia-tambem">
         <h2>Leia Também</h2>
         
@@ -152,16 +154,14 @@
             </div>
         </div>
     </section>
-
-    <section class="post-comentarios">
+<section class="post-comentarios">
         <h2>Comentários</h2>
         <div class="fb-comments-placeholder">
           <p>A caixa de comentários do Facebook será carregada aqui.</p>
         </div>
     </section>
-  </main>
-  
-  <footer class="site-footer">
+    </main>
+<footer class="site-footer">
     <div class="footer-links">
         <a href="#" title="Termos de Uso">Termos de Uso</a>
         <a href="#" title="Política de Privacidade">Política de Privacidade</a>
@@ -169,5 +169,6 @@
     </div>
     <p class="footer-copyright">© Gean Ramos</p>
   </footer>
-</body>
+    </body>
 </html>
+
