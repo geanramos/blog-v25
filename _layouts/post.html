@@ -14,7 +14,7 @@
  </head>
  <body>
   <header class="post-banner">
-   <img src="https://picsum.photos/768/329?random=20" alt="{{ page.title }}" />
+   <img src="{% if page.img %}https://images.weserv.nl/?w=768&h=329&output=jpg&q=80&fit=cover&url={{ page.img | absolute_url }}{% else %}https://picsum.photos/768/329{% endif %}" />
   </header>
 
   <main class="content-container">
