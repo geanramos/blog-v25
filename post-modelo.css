@@ -516,3 +516,22 @@ body {
   font-size: 100%; /* O tamanho já é definido pelo <pre> */
   border-radius: 0;
 }
+/* Estilo para Citações em Bloco */
+.post-full-content blockquote {
+  border-left: 4px solid var(--cor-verde-seguir); /* Uma barra lateral verde para destaque */
+  padding-left: var(--espacamento-md); /* Espaçamento entre a barra e o texto */
+  margin: 2em 0; /* Espaçamento vertical para separar do resto do texto */
+  font-size: 1.1em; /* Tamanho da fonte pode ser um pouco maior */
+  font-style: italic; /* Texto em itálico, um clássico para citações */
+  color: var(--cor-texto-secundario); /* Cor mais suave para o texto da citação */
+}
+
+/* Remove a margem do primeiro parágrafo dentro da citação, se houver */
+.post-full-content blockquote p:first-of-type {
+    margin-top: 0;
+}
+
+/* Remove a margem do último parágrafo dentro da citação, se houver */
+.post-full-content blockquote p:last-of-type {
+    margin-bottom: 0;
+}
