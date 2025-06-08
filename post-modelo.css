@@ -1,0 +1,457 @@
+/* --- ESTILOS FINAIS PARA A PÁGINA DE POST --- */
+
+:root {
+    --cor-fundo-pagina: #f0f2f5;
+    --cor-branco: #ffffff;
+    --cor-texto-primario: #111;
+    --cor-texto-secundario: #777;
+    --cor-verde-seguir: #00A400; /* Cor do botão Seguir */
+    --cor-borda-suave: #e9ebee; /* Borda um pouco mais clara */
+    --fonte-principal: 'Ubuntu', sans-serif;
+}
+
+    @font-face {
+        font-family: 'Chomsky';
+        font-style: normal;
+        font-weight: 400; 
+        src: local('Chomsky Regular'), local('Chomsky-Regular'),
+            url(https://cdn.jsdelivr.net/gh/geanramos/18011975/Chomsky.otf)
+            format('opentype');
+        font-display: swap;
+    }
+   :root {
+    --font-family-base: 'Ubuntu', 'Segoe UI', Arial, sans-serif; /* Simplificado o fallback */
+    --font-family-titulo-site: 'Chomsky', var(--font-family-base);
+    
+    /* Cores Base (inspirado no Line e no Tisha que fizemos) */
+    --cor-fundo: #f0f2f5; /* Um cinza claro similar ao Line */
+    --cor-branco: #ffffff;
+    --cor-primaria-texto: #111; /* Texto principal escuro */
+    --cor-secundaria-texto: #777; /* Texto secundário/metadados */
+    --cor-link: #007bff; /* Azul padrão para links, pode ser ajustado */
+    --cor-link-hover: #0056b3;
+    --cor-verde-line: #06c755; /* Verde característico */
+    --cor-borda-suave: #e0e0e0;
+
+    /* Bordas e Sombras */
+    --borda-arredondada: 8px;
+    --sombra-card: 0 2px 5px rgba(0,0,0,0.1);
+    
+    /* Tamanhos de Fonte */
+    --tamanho-fonte-base: 16px;
+    --tamanho-fonte-h1-perfil: 2.2em; 
+    --tamanho-fonte-h3-cartao: 1rem; /* 16px se base for 16px */
+    --tamanho-fonte-metadados: 0.75rem; /* 12px */
+    --tamanho-fonte-footer: 0.8125rem; /* 13px */
+    --tamanho-fonte-botao: 0.875rem; /* 14px */
+
+    /* Pesos de Fonte */
+    --peso-fonte-normal: 400;
+    --peso-fonte-medio: 500;
+    --peso-fonte-semibold: 600;
+    --peso-fonte-bold: 700;
+
+    /* Alturas de Linha */
+    --line-height-base: 1.6;
+    --line-height-titulos: 1.3;
+    --line-height-compacto: 1.2;
+
+    /* Espaçamentos */
+    --espacamento-sm: 10px;
+    --espacamento-md: 20px;
+    --espacamento-lg: 24px; /* Adicionado para mais flexibilidade */
+    --avatar-size: 100px;
+    --avatar-border-size: 4px;
+   }
+   
+body {
+    margin: 0;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo-pagina);
+    color: var(--cor-texto-primario);
+}
+
+/* Imagem de Destaque no Topo */
+.post-banner {
+  max-width: 768px;
+  max-height: 329px;
+  margin: 0 auto; /* ADICIONE ESTA LINHA PARA CENTRALIZAR */
+  line-height: 0;
+  object-fit: cover;
+}
+
+.post-banner img {
+    width: 100%;
+    height: auto; /* A imagem define sua própria altura */
+    display: block;
+    object-fit: cover;
+    max-width: 768px;
+    max-height: 329px;
+}
+
+/* Container Principal do Conteúdo (o card branco) */
+.content-container {
+    max-width: 740px;
+    margin: 0 auto 40px auto; /* Centralizado, sem sobreposição */
+    background-color: var(--cor-branco);
+    border-radius: 0 0 8px 8px; /* Bordas arredondadas APENAS embaixo */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 14px; /* Padding interno */
+}
+.content-container img {
+  border-radius: 4px;
+  max-width: 100%;
+}
+/* Título do Post */
+.post-full-header {
+    margin-bottom: 20px;
+    text-align: left; /* Alinhado à esquerda como na imagem */
+}
+.post-full {
+  padding: 18px;
+}
+.post-full-title {
+    font-size: 1.5em; /* 36px */
+    font-weight: 900;
+    margin: 0;
+    line-height: 1.2;
+}
+
+/* Seção de Informações do Autor/Post */
+.post-full-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-top: 1px solid var(--cor-borda-suave);
+    border-bottom: 1px solid var(--cor-borda-suave);
+    margin-bottom: 24px;
+}
+
+.author-block {
+    display: flex;
+    align-items: center;
+}
+
+.author-avatar img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.author-name {
+    font-weight: 400;
+    font-size: 1rem; /* 16px */
+}
+
+.meta-line {
+    font-size: 0.8125rem; /* 13px */
+    color: var(--cor-texto-secundario);
+}
+
+.meta-separator {
+    margin: 0 8px;
+}
+
+.follow-button {
+    background-color: var(--cor-verde-seguir);
+    color: var(--cor-branco);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 24px;
+    font-size: 0.875rem; /* 14px */
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.follow-button:hover {
+    background-color: #008a00; /* Verde mais escuro */
+}
+
+/* Descrição/Resumo do Post */
+.post-full-description {
+    font-size: 1.125rem; /* 18px */
+    color: var(--cor-texto-secundario);
+    line-height: 1.6;
+    margin: 0 0 24px 0;
+}
+
+/* Conteúdo Principal do Artigo */
+.post-full-content {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.2;
+    /*! max-width: 740px; */
+}
+
+.post-full-content p {
+    margin: 0 0 1.5em 0;
+}
+
+.post-full-content figure {
+    margin: 2em 0;
+}
+
+.post-full-content figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    max-width: 704px;
+}
+
+.post-full-content figure figcaption {
+    font-size: 0.875rem;
+    color: var(--cor-texto-secundario);
+    text-align: center;
+    margin-top: 8px;
+}
+/* --- ESTILOS ADICIONAIS PARA A PÁGINA DE POST --- */
+
+/* Seção de Tags */
+.post-tags {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--cor-borda-suave);
+}
+
+.post-tags h3 {
+  font-size: 1rem; /* 16px */
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: var(--cor-texto-secundario);
+}
+
+.tag-button {
+  display: inline-block;
+  background-color: var(--cor-primaria-texto);
+  color: var(--cor-branco);
+  padding: 6px 12px;
+  margin: 0 8px 8px 0;
+  border-radius: 4px;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid var(--cor-primaria-texto);
+  transition: all 0.2s ease-in-out;
+}
+
+.tag-button:hover {
+  background-color: var(--cor-verde-seguir);
+  color: var(--cor-branco);
+  border-color: var(--cor-verde-seguir);
+  text-decoration: none;
+}
+
+/* Seção "Leia Também" */
+.leia-tambem {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--cor-borda-suave);
+}
+
+.leia-tambem h2 {
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: var(--peso-fonte-bold);
+  font-size: 1.5rem; /* 24px */
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: var(--cor-texto-primario);
+}
+
+.tag-section {
+  margin-bottom: var(--espacamento-lg);
+}
+
+.tag-section-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: var(--peso-fonte-bold);
+  font-size: 1.25rem; /* 20px */
+  margin-top: 0;
+  margin-bottom: var(--espacamento-md);
+  padding-bottom: var(--espacamento-sm);
+  border-bottom: 3px solid var(--cor-verde-seguir);
+  display: inline-block;
+}
+
+/* A seção "Leia Também" reutiliza os estilos de .cartao-artigo do home.css */
+
+/* Seção de Comentários */
+.post-comentarios {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--cor-borda-suave);
+}
+
+.post-comentarios h2 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem; /* 24px */
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: var(--cor-texto-primario);
+}
+
+.fb-comments-placeholder {
+  background: var(--cor-fundo-pagina);
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: var(--borda-arredondada);
+  color: var(--cor-texto-secundario);
+}
+
+   .container { /* Para a lista de artigos */
+    max-width: 728px;
+    margin: var(--espacamento-md) auto;
+    background-color: var(--cor-branco);
+    border-radius: var(--borda-arredondada);
+    box-shadow: var(--sombra-card);
+    padding: var(--espacamento-md);
+   }
+  .cartao-artigo {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: var(--espacamento-md);
+        border-bottom: 1px solid var(--cor-borda-suave);
+        padding-bottom: var(--espacamento-md);
+    }
+
+    .cartao-artigo:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    .cartao-artigo-link-imagem {
+        flex-shrink: 0;
+        width: 112px;
+        height: 64px; 
+        margin-right: var(--espacamento-sm);
+        display: block;
+        overflow: hidden;
+        border-radius: 4px;
+    }
+
+    .cartao-artigo-imagem-wrapper {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .cartao-artigo-imagem-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 4px;
+        display: block;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .cartao-artigo-link-imagem:hover .cartao-artigo-imagem-wrapper img {
+        transform: scale(1.1); 
+    }
+
+    .cartao-artigo-conteudo {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cartao-artigo-link-titulo {
+        text-decoration: none;
+        color: var(--cor-texto-titulos-cartao); /* Cor dos títulos dos cartões */
+    }
+
+    .cartao-artigo-titulo { /* h3 */
+        font-size: var(--tamanho-fonte-h3-cartao);
+        font-weight: var(--peso-fonte-semibold);
+        color: inherit; /* Herda a cor do link pai */
+        line-height: var(--line-height-titulos); 
+        margin: 0 0 var(--espacamento-sm) 0; 
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .cartao-artigo-link-titulo:hover .cartao-artigo-titulo {
+        color: var(--cor-verde-line); 
+        text-decoration: underline;
+    }
+
+    .cartao-artigo-data { /* p */
+        font-size: var(--tamanho-fonte-metadados);
+        font-weight: var(--peso-fonte-normal);
+        color: var(--cor-secundaria-texto);
+        margin: 0;
+        line-height: var(--line-height-compacto);
+    }
+
+    /* --- ESTILOS DO FOOTER (NOVO) --- */
+    footer.site-footer { /* Adicionada classe para especificidade */
+        max-width: 728px; /* Para alinhar com os containers acima */
+        text-align: center;
+        /*! padding: var(--espacamento-lg) var(--espacamento-md) var(--espacamento-md); */ /* Mais padding no topo */
+        margin: var(--espacamento-lg) auto var(--espacamento-md);
+        /* Sem background-color para ser igual ao fundo da página, como na imagem */
+        /* Sem border-radius se for para parecer integrado ao fundo */
+    }
+
+    .footer-category-trigger {
+        display: inline-flex; /* Para alinhar texto e ícone */
+        align-items: center;
+        /*! margin-bottom: var(--espacamento-md); */ /* Espaço abaixo do "類別" */
+        cursor: default; /* Não será clicável na versão estática */
+        color: var(--cor-secundaria-texto); /* Cor de texto secundária */
+        font-size: var(--tamanho-fonte-footer);
+    }
+
+    .footer-category-text {
+        margin-right: var(--espacamento-sm);
+    }
+
+    .footer-category-icon svg {
+        width: 1em;
+        height: 1em;
+        fill: currentColor;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* Para que os links quebrem em telas menores se necessário */
+        gap: var(--espacamento-sm) var(--espacamento-md); /* Espaço vertical e horizontal entre os links */
+        /*! margin-bottom: var(--espacamento-md); */
+    }
+
+    .footer-links a {
+        font-size: var(--tamanho-fonte-footer);
+        font-weight: var(--peso-fonte-normal);
+        color: var(--cor-secundaria-texto);
+        text-decoration: none;
+    }
+
+    .footer-links a:hover {
+        color: var(--cor-verde-line);
+        text-decoration: underline;
+    }
+
+    .footer-copyright {
+        font-size: var(--tamanho-fonte-metadados); /* Usando tamanho de metadados para ser menor */
+        font-weight: var(--peso-fonte-normal);
+        color: var(--cor-cinza-metadados-cartao); /* Um cinza mais claro */
+        margin-top: 0; /* A margem inferior do .footer-links já deve dar espaço */
+    }
+        /* --- FIM DOS ESTILOS DO FOOTER --- */
+
+   a { 
+    color: var(--cor-link); /* Cor padrão para links, pode ser sobreposto */
+    text-decoration: none;
+   }
+   a:hover {
+       text-decoration: none;
+       color: #06ff16;
+   }
