@@ -69,14 +69,14 @@
    </article>
    <section class="leia-tambem">
     <h2>Leia Também</h2>
-    {% assign related_tags = "Jekyll,CSS,Desenvolvimento" | split: "," %}
+    {% assign related_tags = "memories,ohayo,wow" | split: "," %}
     {% for tag in related_tags %}
       <div class="tag-section">
         <h3 class="tag-section-title">{{ tag }}</h3>
         {% assign count = 0 %}
         {% for post in site.posts %}
           {% if post.url != page.url %}
-            {% if post.tags contains tag and count < 3 %}
+            {% if post.tags contains tag and count < 5 %}
               {% include cartao-artigo.html %}
               {% assign count = count | plus: 1 %}
             {% endif %}
