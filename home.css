@@ -1,25 +1,24 @@
-@font-face {
-    font-family: 'Chomsky';
-    font-style: normal;
-    font-weight: 400; 
-    src: local('Chomsky Regular'), local('Chomsky-Regular'),
-        url(https://cdn.jsdelivr.net/gh/geanramos/18011975/Chomsky.otf)
-        format('opentype');
-    font-display: swap;
-}
-
-:root {
-    --font-family-base: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    @font-face {
+        font-family: 'Chomsky';
+        font-style: normal;
+        font-weight: 400; 
+        src: local('Chomsky Regular'), local('Chomsky-Regular'),
+            url(https://cdn.jsdelivr.net/gh/geanramos/18011975/Chomsky.otf)
+            format('opentype');
+        font-display: swap;
+    }
+   :root {
+    --font-family-base: 'Roboto', 'Segoe UI', Arial, sans-serif; /* Simplificado o fallback */
     --font-family-titulo-site: 'Chomsky', var(--font-family-base);
     
-    /* Cores Base */
-    --cor-fundo: #f0f2f5;
+    /* Cores Base (inspirado no Line e no Tisha que fizemos) */
+    --cor-fundo: #f0f2f5; /* Um cinza claro similar ao Line */
     --cor-branco: #ffffff;
-    --cor-primaria-texto: #111111;
-    --cor-secundaria-texto: #777777;
-    --cor-link: #007bff;
-    --cor-link-hover: #0000ff; /* Alterado em sua última versão */
-    --cor-verde-line: #06c755;
+    --cor-primaria-texto: #1c1e21; /* Texto principal escuro */
+    --cor-secundaria-texto: #65676b; /* Texto secundário/metadados */
+    --cor-link: #007bff; /* Azul padrão para links, pode ser ajustado */
+    --cor-link-hover: #0056b3;
+    --cor-verde-line: #06c755; /* Verde característico */
     --cor-borda-suave: #e0e0e0;
 
     /* Bordas e Sombras */
@@ -29,7 +28,7 @@
     /* Tamanhos de Fonte */
     --tamanho-fonte-base: 16px;
     --tamanho-fonte-h1-perfil: 2.2em; 
-    --tamanho-fonte-h3-cartao: 1rem;
+    --tamanho-fonte-h3-cartao: 1rem; /* 16px se base for 16px */
     --tamanho-fonte-metadados: 0.75rem; /* 12px */
     --tamanho-fonte-footer: 0.8125rem; /* 13px */
     --tamanho-fonte-botao: 0.875rem; /* 14px */
@@ -48,12 +47,12 @@
     /* Espaçamentos */
     --espacamento-sm: 10px;
     --espacamento-md: 20px;
-    --espacamento-lg: 24px;
+    --espacamento-lg: 24px; /* Adicionado para mais flexibilidade */
     --avatar-size: 100px;
     --avatar-border-size: 4px;
-}
+   }
 
-body {
+   body {
     font-family: var(--font-family-base);
     font-size: var(--tamanho-fonte-base);
     line-height: var(--line-height-base);
@@ -61,41 +60,35 @@ body {
     margin: 0;
     padding: 0;
     color: var(--cor-primaria-texto);
-}
+   }
 
-.site-header {
-    background-color: transparent;
-    position: relative;
-}
+   .site-header {
+     background-color: transparent; /* Ou a cor da capa se ela não ocupar tudo */
+     position: relative;
+   }
 
-.capa-container {
+   .capa-container {
     max-width: 768px;
     margin: 0 auto;
-    position: relative;
-    background-color: var(--cor-borda-suave);
-    width: 100%;
-    height: 0;
-    padding-top: 42.857%; /* Proporção 21:9 */
-}
+    line-height: 0; 
+    background-image: url('https://telegram.org/img/tgme/pattern.svg?1');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto 100vh;
+    background-color: #06c755;
+    /*! opacity: 0.5; */
+   }
 
-.capa {
-    position: absolute;
-    top: 0;
-    left: 0;
+   .capa {
     width: 100%;
-    height: 100%;
+    height: 276px; /* Mantendo a proporção 728x276, se capa-container for 728, ou ajuste */
+                    /* Se capa-container é 768px, altura=(276/728)*768 = 291px */
     object-fit: cover;
     display: block;
-}
-
-@media (min-width: 768px) {
-  .capa-container {
-    height: 291px;
-    padding-top: 0;
-  }
-}
+   }
    
-.perfil-card {
+   .perfil-card {
     background-color: var(--cor-branco);
     border-bottom-left-radius: var(--borda-arredondada);
     border-bottom-right-radius: var(--borda-arredondada);
@@ -105,19 +98,19 @@ body {
     padding: var(--espacamento-md);
     padding-top: calc(var(--avatar-size) / 2 + var(--espacamento-md) + var(--avatar-border-size)); 
     margin: calc(-1 * (var(--avatar-size) / 2) - var(--avatar-border-size)) auto var(--espacamento-md); 
-    max-width: 704px; 
+    max-width: 728px; /* Card do perfil alinhado com conteúdo abaixo */
     position: relative;
     z-index: 2;
-}
+   }
 
-.avatar-wrapper {
+   .avatar-wrapper {
     position: absolute;
     top: calc(-1 * (var(--avatar-size) / 2) - var(--avatar-border-size)); 
     left: var(--espacamento-md); 
     z-index: 3;
-}
+   }
 
-.avatar {
+   .avatar {
     width: var(--avatar-size);
     height: var(--avatar-size);
     border-radius: 50%;
@@ -125,240 +118,208 @@ body {
     background-color: var(--cor-branco);
     object-fit: cover;
     display: block;
-}
+   }
     
-.perfil-header-info {
+   .perfil-header-info {
     display: flex;
     align-items: center; 
     justify-content: space-between; 
     margin-bottom: var(--espacamento-sm);
-}
+   }
     
-.perfil-nome-link {
+   .perfil-nome-link {
     text-decoration: none;
-}
+   }
 
-.perfil-nome {
-    font-family: var(--font-family-titulo-site);
+   .perfil-nome {
+    font-family: var(--font-family-titulo-site); /* Chomsky */
     font-size: var(--tamanho-fonte-h1-perfil);
     font-weight: var(--peso-fonte-bold);
     line-height: 1.2; 
     margin: 0;
-    color: var(--cor-primaria-texto);
-}
+    color: var(--cor-primaria-texto); /* Ajustado para cor de texto primária */
+   }
     
-.botao-whatsapp {
+      .botao-whatsapp { /* Botão "Seguir" */
     background-color: var(--cor-verde-line);
-    color: #fff;
+    color: var(--cor-branco);
     text-decoration: none;
-    padding: 6px 20px;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: bold;
-}
+    padding: 6px 14px;
+    border-radius: 4px; /* Um pouco menos arredondado que o geral */
+    font-size: var(--tamanho-fonte-botao);
+    font-weight: var(--peso-fonte-bold);
+    line-height: 1;
+   }
 
-.botao-whatsapp:hover {
-    background-color: rgb(80, 215, 135);
-}
+   .botao-whatsapp:hover {
+    background-color: #05a546; /* Um verde um pouco mais escuro no hover */
+   }
         
-.perfil-descricao {
-    font-size: var(--tamanho-fonte-base);
-    color: var(--cor-cinza-texto-perfil);
-    line-height: 1.5;
-    margin-bottom: var(--espacamento-sm);
-}
+   .perfil-descricao {
+     font-size: var(--tamanho-fonte-base);
+     font-weight: var(--peso-fonte-normal);
+     color: var(--cor-secundaria-texto); /* Cor secundária para descrição */
+     line-height: 1.2rem;
+     margin-bottom: var(--espacamento-sm);
+   }
    
-.perfil-seguidores {
+   .perfil-seguidores {
     font-size: var(--tamanho-fonte-base);
-    color: var(--cor-cinza-texto-perfil);
-}
+    font-weight: var(--peso-fonte-normal);
+    color: var(--cor-secundaria-texto);
+    line-height: var(--line-height-base);
+   }
 
-.container {
-    max-width: 704px;
+   .container { /* Para a lista de artigos */
+    max-width: 728px;
     margin: var(--espacamento-md) auto;
     background-color: var(--cor-branco);
     border-radius: var(--borda-arredondada);
     box-shadow: var(--sombra-card);
     padding: var(--espacamento-md);
-}
+   }
 
-.cartao-artigo {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: var(--espacamento-md);
-    border-bottom: 1px solid var(--cor-borda-suave);
-    padding-bottom: var(--espacamento-md);
-}
+    .cartao-artigo {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: var(--espacamento-md);
+        border-bottom: 1px solid var(--cor-borda-suave);
+        padding-bottom: var(--espacamento-md);
+    }
 
-.cartao-artigo:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-}
+    .cartao-artigo:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
 
-.cartao-artigo-link-imagem {
-    flex-shrink: 0;
-    width: 112px;
-    height: 64px; 
-    margin-right: var(--espacamento-sm);
-    display: block;
-    overflow: hidden;
-    border-radius: 4px;
-}
+    .cartao-artigo-link-imagem {
+        flex-shrink: 0;
+        width: 112px;
+        height: 64px; 
+        margin-right: var(--espacamento-sm);
+        display: block;
+        overflow: hidden;
+        border-radius: 4px;
+    }
 
-.cartao-artigo-imagem-wrapper {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
+    .cartao-artigo-imagem-wrapper {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
 
-.cartao-artigo-imagem-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 4px;
-    display: block;
-    transition: transform 0.3s ease-in-out;
-}
+    .cartao-artigo-imagem-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 4px;
+        display: block;
+        transition: transform 0.3s ease-in-out;
+    }
     
-.cartao-artigo-link-imagem:hover .cartao-artigo-imagem-wrapper img {
-    transform: scale(1.1); 
-}
+    .cartao-artigo-link-imagem:hover .cartao-artigo-imagem-wrapper img {
+        transform: scale(1.1); 
+    }
 
-.cartao-artigo-conteudo {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
+    .cartao-artigo-conteudo {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
 
-.cartao-artigo-link-titulo {
+    .cartao-artigo-link-titulo {
+        text-decoration: none;
+        color: var(--cor-texto-titulos-cartao); /* Cor dos títulos dos cartões */
+    }
+
+    .cartao-artigo-titulo { /* h3 */
+        font-size: var(--tamanho-fonte-h3-cartao);
+        font-weight: var(--peso-fonte-semibold);
+        color: inherit; /* Herda a cor do link pai */
+        line-height: var(--line-height-titulos); 
+        margin: 0 0 var(--espacamento-sm) 0; 
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .cartao-artigo-link-titulo:hover .cartao-artigo-titulo {
+        color: var(--cor-verde-line); 
+        text-decoration: underline;
+    }
+
+    .cartao-artigo-data { /* p */
+        font-size: var(--tamanho-fonte-metadados);
+        font-weight: var(--peso-fonte-normal);
+        color: var(--cor-cinza-metadados-cartao);
+        margin: 0;
+        line-height: var(--line-height-compacto);
+    }
+
+    /* --- ESTILOS DO FOOTER (NOVO) --- */
+    footer.site-footer { /* Adicionada classe para especificidade */
+        max-width: 728px; /* Para alinhar com os containers acima */
+        text-align: center;
+        /*! padding: var(--espacamento-lg) var(--espacamento-md) var(--espacamento-md); */ /* Mais padding no topo */
+        margin: var(--espacamento-lg) auto var(--espacamento-md);
+        /* Sem background-color para ser igual ao fundo da página, como na imagem */
+        /* Sem border-radius se for para parecer integrado ao fundo */
+    }
+
+    .footer-category-trigger {
+        display: inline-flex; /* Para alinhar texto e ícone */
+        align-items: center;
+        /*! margin-bottom: var(--espacamento-md); */ /* Espaço abaixo do "類別" */
+        cursor: default; /* Não será clicável na versão estática */
+        color: var(--cor-secundaria-texto); /* Cor de texto secundária */
+        font-size: var(--tamanho-fonte-footer);
+    }
+
+    .footer-category-text {
+        margin-right: var(--espacamento-sm);
+    }
+
+    .footer-category-icon svg {
+        width: 1em;
+        height: 1em;
+        fill: currentColor;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* Para que os links quebrem em telas menores se necessário */
+        gap: var(--espacamento-sm) var(--espacamento-md); /* Espaço vertical e horizontal entre os links */
+        /*! margin-bottom: var(--espacamento-md); */
+    }
+
+    .footer-links a {
+        font-size: var(--tamanho-fonte-footer);
+        font-weight: var(--peso-fonte-normal);
+        color: var(--cor-secundaria-texto);
+        text-decoration: none;
+    }
+
+    .footer-links a:hover {
+        color: var(--cor-verde-line);
+        text-decoration: underline;
+    }
+
+    .footer-copyright {
+        font-size: var(--tamanho-fonte-metadados); /* Usando tamanho de metadados para ser menor */
+        font-weight: var(--peso-fonte-normal);
+        color: var(--cor-cinza-metadados-cartao); /* Um cinza mais claro */
+        margin-top: 0; /* A margem inferior do .footer-links já deve dar espaço */
+    }
+    /* --- FIM DOS ESTILOS DO FOOTER --- */
+
+   a { 
+    color: var(--cor-link); /* Cor padrão para links, pode ser sobreposto */
     text-decoration: none;
-    color: var(--cor-primaria-texto);
-}
-
-.cartao-artigo-titulo {
-    font-size: var(--tamanho-fonte-h3-cartao);
-    font-weight: 400; 
-    color: inherit; 
-    line-height: var(--line-height-titulos); 
-    margin: 0 0 var(--espacamento-sm) 0; 
-    display: -webkit-box;
-    -webkit-line-clamp: 2; 
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.cartao-artigo-link-titulo:hover .cartao-artigo-titulo {
-    color: var(--cor-verde-line); 
-    text-decoration: underline;
-}
-
-.cartao-artigo-data {
-    font-size: var(--tamanho-fonte-metadados); 
-    color: var(--cor-cinza-metadados-cartao);
-    margin: 0;
-    line-height: var(--line-height-compacto);
-}
-
-footer.site-footer {
-    max-width: 728px;
-    text-align: center;
-    margin: var(--espacamento-lg) auto var(--espacamento-md);
-}
-
-.footer-category-trigger {
-    display: inline-flex;
-    align-items: center;
-    cursor: default;
-    color: var(--cor-secundaria-texto);
-    font-size: var(--tamanho-fonte-footer);
-}
-
-.footer-category-text {
-    margin-right: var(--espacamento-sm);
-}
-
-.footer-category-icon svg {
-    width: 1em;
-    height: 1em;
-    fill: currentColor;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: var(--espacamento-sm) var(--espacamento-md);
-}
-
-.footer-links a {
-    font-size: 14px;
-    font-weight: 400;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-    color: #fff;
-    text-decoration: underline;
-}
-
-.footer-copyright {
-    font-size: 13px;
-    font-weight: 400;
-    color: #ffffff;
-    margin-top: var(--espacamento-sm); 
-}
-
-a { 
-    color: var(--cor-primaria-texto);
-    text-decoration: none;
-}
-a:hover {
-   text-decoration: none;
-   color: #0000ff;
-}
-/* --- ESTILOS PARA PAGINAÇÃO --- */
-.pagination {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: var(--espacamento-md);
-  margin-top: var(--espacamento-lg);
-  border-top: 1px solid var(--cor-borda-suave);
-}
-
-.pagination a, .pagination span {
-  padding: 8px 16px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: var(--peso-fonte-bold);
-  font-size: 0.9em;
-  border: 1px solid transparent; /* Adicionado para manter o tamanho consistente */
-}
-
-.pagination a {
-  background-color: var(--cor-verde-line);
-  color: var(--cor-branco);
-  transition: background-color 0.2s;
-}
-
-.pagination a:hover {
-  background-color: #05a546; /* Verde mais escuro no hover */
-  text-decoration: none;
-  color: var(--cor-branco);
-}
-
-.pagination span.disabled {
-  color: #b0b0b0; /* Cinza para texto desabilitado */
-  background-color: #e9ecef; /* Fundo do botão desabilitado */
-  border: 1px solid #dee2e6;
-  cursor: not-allowed;
-}
-
-.pagination .page_number {
-  background-color: transparent;
-  border: none;
-  color: var(--cor-secundaria-texto);
-  font-weight: var(--peso-fonte-normal);
-}
+   }
+   a:hover {
+       text-decoration: none;
+       color: #06ff16;
+   }
