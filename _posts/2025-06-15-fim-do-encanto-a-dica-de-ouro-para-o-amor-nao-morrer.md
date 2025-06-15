@@ -73,7 +73,7 @@ O namoro não é só uma fase com data de validade. _É uma atitude!_ É um jeit
 -   É preparar o café do jeito que a pessoa gosta, mesmo que você prefira chá.
 -   É fazer um cafuné despretensioso enquanto assistem àquela série que você nem curte tanto.
 
-Porque, vamos ser brutalmente honestas, o amor na **rotina no casamento** (ou no namoro longo) não é um clipe romântico. 
+Porque, vamos ser brutalmente honestos, o amor na **rotina no casamento** (ou no namoro longo) não é um clipe romântico. 
 
 É lembrar de comprar o pão, não deixar a toalha molhada na cama pela milésima vez, e escutar com atenção a mesma história do chefe mala.
 
