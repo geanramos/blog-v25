@@ -3,7 +3,7 @@ title: "Fim do Encanto? A Dica de Ouro Para o Amor Não Morrer! 🥀💖"
 date: 2025-06-15 18:07:00 -03:00 
 description: "Dia dos Namorados acabou e a rotina bateu? Vem ver a dica de ouro da vovó Cora pra manter a chama acesa e o namoro eterno!" 
 tags: [relacionamento, amor, cora coralina, dicas, gean ramos] 
-image: "placeholder-tisha-news.jpg"
+img: "./img/shy-woman-hiding-with-balloon_23-2147644330.jpg"
 ---
 ### **O Segredo do Namoro Eterno (Senta que lá vem poesia!) 📝❤️**
 
