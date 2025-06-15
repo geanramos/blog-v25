@@ -2,7 +2,7 @@
 title: "Fim do Encanto? A Dica de Ouro Para o Amor Não Morrer! 🥀💖" 
 date: 2025-06-15 18:07:00 -03:00 
 description: "Dia dos Namorados acabou e a rotina bateu? Vem ver a dica de ouro da vovó Cora pra manter a chama acesa e o namoro eterno!" 
-tags: [relacionamento, amor, cora coralina, dicas, tisha news] 
+tags: [relacionamento, amor, cora coralina, dicas, gean ramos] 
 image: "placeholder-tisha-news.jpg"
 ---
 ### **O Segredo do Namoro Eterno (Senta que lá vem poesia!) 📝❤️**
@@ -15,19 +15,22 @@ Se o seu relacionamento já passou da fase do frio na barriga e entrou na fase d
 
 A gente vive buscando soluções mirabolantes em posts de Instagram e conselhos de coach, mas e se eu te disser que a resposta pra **manter a chama acesa** veio lá do passado, na voz de uma das maiores vovós que o Brasil já teve?
 
-Pois é, amiga, quando a gente acha que já viu de tudo, vem a poetisa **Cora Coralina** e joga a real sobre **relacionamento duradouro** num poema que é um verdadeiro tapa de luva de pelica na cara da nossa rotina. Prepara que a DR de hoje vai ser poética!
+Pois é, quando a gente acha que já viu de tudo, vem a poetisa **Cora Coralina** e joga a real sobre **relacionamento duradouro** num poema que é um verdadeiro tapa de luva de pelica na cara da nossa rotina. Prepara que a DR de hoje vai ser poética!
 
 > ### **Poema do Namoro**
 > Namoro é tempo de flor
+> 
 > De sonhos, de fantasia
+> 
 > Onde a alma diz ao corpo
+> 
 > Que ainda é cedo, que espere o dia.
 > 
 > — Cora Coralina
 
 ----------
 
-#### **🛑 O que essa fofoca poética quer dizer? (Decodificando a Vovó Cora)**
+#### **🛑 O que esse trecho poético quer dizer? (Decodificando a Vovó Cora)**
 
 À primeira vista, parece só um poema fofinho, né? Mas, meu bem, tem mais sabedoria nessas quatro linhas do que em muitas temporadas de reality show de casal. Vamos destrinchar esse babado!
 
@@ -87,27 +90,6 @@ Manter o espírito do "tempo de flor" é, no fundo, o grande segredo para **mant
 E aí, amiga? Qual é o seu truque pra não deixar a flor do seu relacionamento virar um cacto cheio de espinhos? 🌵 Comenta aqui que eu quero saber dos seus segredos! 👇
 
 ----------
-
-## 🌟 **Quer receber mais dicas e fofocas direto no zap?** Vem com a gente!  
-**Entre no canal da Tisha News** e não perca nenhum babado! 📲
-
-### **🧪 TÍTULOS E DESCRIÇÕES ALTERNATIVAS:**
-
-**Títulos:**
-
-1.  O Segredo do Namoro Eterno (Senta que lá vem poesia!) 🤫💕
-2.  Seu Relacionamento Virou Boleto? Cora Coralina Ajuda! 🧾❤️
-3.  A DR que Cora Coralina Resolveu Antes de Virar Moda 🗣️✨
-4.  Fim do Encanto? A Dica de Ouro Para o Amor Não Morrer! 🥀💖
-5.  "Tempo de Flor": O que Cora Coralina Pode Ensinar Sobre o Amor? 💐
-
-**Descrições:**
-
-1.  O Dia dos Namorados passou e a magia sumiu? Veja como um poema de Cora Coralina pode salvar seu relacionamento da rotina!
-2.  Acha que a fase do "namoro" acabou? A poetisa Cora Coralina ensina o segredo para manter o romance vivo para sempre.
-3.  Da paixão à rotina: aprenda a resgatar o "tempo de flor" no seu relacionamento com a sabedoria de um poema clássico.
-4.  Antes dos coachs de relacionamento, existia Cora Coralina. Descubra a lição sobre amor e paciência que viralizou no tempo.
-5.  Seu romance está precisando de um up? Entenda o conceito de "namoro eterno" e veja dicas para não deixar a chama apagar.
 
 ### **🗂️ CATEGORIAS:**
 
