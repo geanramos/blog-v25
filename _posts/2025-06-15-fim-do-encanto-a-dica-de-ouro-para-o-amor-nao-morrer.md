@@ -61,7 +61,7 @@ Na **vida a dois**, a pressa é inimiga da perfeição (e da sanidade mental).
 
 #### **💡 Mas e quando a flor vira boleto e a fantasia vira rotina?**
 
-Ok, Tisha, tudo muito lindo, mas como eu mantenho esse "tempo de flor" quando as contas chegam, as crianças fazem birra e o cansaço do trabalho fala mais alto que qualquer declaração de amor?
+Ok, Gean, tudo muito lindo, mas como eu mantenho esse "tempo de flor" quando as contas chegam, as crianças fazem birra e o cansaço do trabalho fala mais alto que qualquer declaração de amor?
 
 É aí que a gente entende a genialidade da Cora. O que muitos esquecem é que **o tempo da flor não precisa morrer quando chegam os dias da raiz.**
 
