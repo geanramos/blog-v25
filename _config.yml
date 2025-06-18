@@ -3,7 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   O lugar onde as histórias ganham vida! Junte-se a nós para romances arrebatadores, reflexões profundas e muitos mais. 😊
 permalink: ':title.html'
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.gean.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://geanramos.u1m.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: https://twitter.com/geanramos #if your site has a twitter account, enter it here
 
 # Author Settings
