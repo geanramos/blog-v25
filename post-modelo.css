@@ -535,3 +535,15 @@ body {
 .post-full-content blockquote p:last-of-type {
     margin-bottom: 0;
 }
+/*
+  Esta regra seleciona qualquer iframe que esteja dentro de um elemento
+  com a classe "entry", que é a área de conteúdo dos nossos posts.
+*/
+iframe {
+  width: 100%;             /* Ocupa toda a largura da coluna */
+  height: auto;              /* A altura se ajusta automaticamente */
+  aspect-ratio: 16 / 9;      /* Força a proporção 16:9 */
+  border: 0;                 /* Remove a borda padrão */
+  margin-bottom: 20px;       /* Espaçamento opcional abaixo do vídeo */
+  border-radius: 4px;
+}
