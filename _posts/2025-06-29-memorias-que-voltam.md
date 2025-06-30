@@ -29,7 +29,7 @@ E mesmo assim... a gente dormiu. E dormiu bem. Porque a verdade é que, apesar d
 
 Aí me veio à cabeça uma matéria antiga da Super Interessante (sim, eu leio até isso quando tô com saudade):
 
-> *“Elefantes selvagens podem passar anos sem contato com outros elefantes, e ainda assim lembrar deles.”*
+> _[“Elefantes selvagens podem passar anos sem contato com outros elefantes, e ainda assim lembrar deles.”](https://www.google.com/search?q=%C3%89%20verdade%20que%20os%20elefantes%20nunca%20esquecem?)_
 
 E olha só, passou só um ano. Eu não sou elefante selvagem (embora às vezes me sinta meio bicho solto), **a gente nem teve um relacionamento de verdade**, mas aqui estou eu. De novo. Lembrando de você.
 
