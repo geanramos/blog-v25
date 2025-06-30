@@ -80,4 +80,14 @@ Obrigada, Carl Sagan. E obrigada a você, que lê isso aqui agora, por dividir e
 
 📽️ _Referência cult para ver debaixo do cobertor e chorar bonito:_  
 **“Sob o Sol da Toscana”** — [http://ok.ru/video/854021179991](http://ok.ru/video/854021179991)  
+
+<iframe
+  width="640"
+  height="360"
+  src="https://ok.ru/videoembed/854021179991"
+  frameborder="0"
+  allowfullscreen
+  allow="autoplay; encrypted-media">
+</iframe>
+
 (_Sim, o amor pode florescer em qualquer lugar. Inclusive na Itália._ 🍷🇮🇹)
