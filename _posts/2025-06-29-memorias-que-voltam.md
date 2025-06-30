@@ -5,8 +5,8 @@ date: 2025-06-29 05:00:00 -0300
 description: "Sabe aquele ex que volta só na mente? Às vezes, é só um flash. Outras, é uma sessão completa de nostalgia com trilha sonora e tudo."
 tags: [ohayo]
 img: "./img/boas-memorias.jpg"
-
-## 💭 Elefantes têm memória boa... e eu também, viu?
+---
+**💭 Elefantes têm memória boa... e eu também, viu?**
 
 > *É quarta-feira, 20h38. Véspera de feriado. E eu, em vez de estar maratonando série ou organizando minha vida, tô aqui: lembrando de você.*
 > (Sim, DE NOVO.)
@@ -33,7 +33,7 @@ Aí me veio à cabeça uma matéria antiga da Super Interessante (sim, eu leio a
 
 E olha só, passou só um ano. Eu não sou elefante selvagem (embora às vezes me sinta meio bicho solto), **a gente nem teve um relacionamento de verdade**, mas aqui estou eu. De novo. Lembrando de você.
 
-Agora são **21h03**, e já tô ouvindo *About You*, do The 1975. Porque é claro que minha playlist decidiu colaborar com a bad.
+Agora são **21h03**, e já tô ouvindo [_About You_, do The 1975](https://www.youtube.com/watch?v=tGv7CUutzqU). Porque é claro que minha playlist decidiu colaborar com a bad.
 
 Tarde demais.
 A nostalgia venceu mais uma vez.
