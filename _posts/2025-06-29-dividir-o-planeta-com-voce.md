@@ -4,7 +4,7 @@ title: "✨ Dividir o planeta com você já é um milagre"
 date: 2025-06-29 05:00:00 -0300
 description: "Entre bilhões de galáxias e pessoas, encontrar alguém especial é raro. E quando rola conexão? Ah... até o Carl Sagan ficaria bobo! 💫"
 tags: [ohayo]
-img: "https://images.unsplash.com/photo-1625863615190-a795f160714b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+img: "./img/dividir-o-planeta-com-voce.jpg"
 ---
 **💫 Diante da imensidão… quem você agradece por dividir o planeta com você?**
 
