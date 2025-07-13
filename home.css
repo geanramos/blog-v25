@@ -60,6 +60,8 @@
     margin: 0;
     padding: 0;
     color: var(--cor-primaria-texto);
+    background-image:radial-gradient(rgba(34,34,34,.219) 1px,transparent 1px);
+    background-size:calc(10 * .5px) calc(10 * .5px);
    }
 
    .site-header {
