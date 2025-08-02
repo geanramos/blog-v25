@@ -12,7 +12,7 @@ E não é drama, é _realidade_: **quem não se conhece, se perde nos outros.** 
 
 ----------
 
-![](https://geanramos.com.br/img/rising-tag.png)
+![](https://geanramos.u1m.com.br/img/rising-tag.png)
 
 
 ## **Você tentando se encontrar no meio da bagunça emocional alheia.**

@@ -4,12 +4,12 @@ date: 2024-12-15 08:03:47 -03:00
 description: "Tolstói revela como a felicidade está na paz interior, na natureza, no amor e na simplicidade do cotidiano. Reflexões sobre o que realmente importa."
 categories: memories
 tags: [memories]
-img: "https://geanramos.com.br/img/ressurreicao.jpg"
+img: "https://geanramos.u1m.com.br/img/ressurreicao.jpg"
 ---
 
 ![As razões que o amor desconhece](https://cdn.jsdelivr.net/gh/geanramos/files/img/filosofando.png)
 
-![As razões que o amor desconhece](https://geanramos.com.br/img/ressurreicao.jpg)
+![As razões que o amor desconhece](https://geanramos.u1m.com.br/img/ressurreicao.jpg)
 
 > _Passei por muita coisa na vida e agora penso que encontrei o que é necessário para a felicidade. Uma vida tranquila e isolada no campo,
 > com a possibilidade de ser útil à gente para quem é fácil fazer o bem

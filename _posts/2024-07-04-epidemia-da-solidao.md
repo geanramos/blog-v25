@@ -4,7 +4,7 @@ date: 2024-07-04 10:10:47 -03:00
 description: Experiências reais de como a amizade pode ser o melhor suporte durante desafios pessoais e esportivos.
 categories: ohayo
 tags: [ohayo]
-img: "https://geanramos.com.br/img/marina-pumar.jpg"
+img: "https://geanramos.u1m.com.br/img/marina-pumar.jpg"
 ---
 
 ![Epidemia de Solidão: O Poder Transformador da Amizade](./img/marina-pumar-2.jpg)

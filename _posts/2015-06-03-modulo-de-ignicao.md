@@ -4,10 +4,10 @@ date: 2015-06-03 06:01:00 -03:00
 description: "Veja como transformar desafios em oportunidades com foco e determinação. Leia agora e inspire-se a enfrentar qualquer obstáculo!"
 categories: arquivo
 tags: [arquivo, arquivo]
-img: "https://geanramos.com.br/img/concorrencia-menor.jpg"
+img: "https://geanramos.u1m.com.br/img/concorrencia-menor.jpg"
 ---
 
-![gean ramos - Módulo de Ignição](https://geanramos.com.br/img/concorrencia-menor.jpg)
+![gean ramos - Módulo de Ignição](https://geanramos.u1m.com.br/img/concorrencia-menor.jpg)
 
 Eu sou um péssimo perdedor. Culpa da minha criação. Nada de ser mimado e fazer birra quando perco, mas aprendi a fazer tudo com muita vontade. E quando você é tão intenso, espera que seu árduo trabalho resulte em nada menos que a vitória.
 

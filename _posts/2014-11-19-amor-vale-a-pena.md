@@ -4,10 +4,10 @@ date: 2014-11-19 06:01:00 -03:00
 description: "A dolorosa verdade sobre o amor que ninguem te conta: por que ainda vale a pena?"
 categories: arquivo
 tags: [arquivo, arquivo]
-img: "https://geanramos.com.br/img/desafios-do-amor.jpg"
+img: "https://geanramos.u1m.com.br/img/desafios-do-amor.jpg"
 ---
 
-![Gean Ramos - Desafios do Amor: Vale a Pena?.](https://geanramos.com.br/img/desafios-do-amor.jpg)
+![Gean Ramos - Desafios do Amor: Vale a Pena?.](https://geanramos.u1m.com.br/img/desafios-do-amor.jpg)
 
 **Sobrevivendo ao Amor (e à Guerra)**
 

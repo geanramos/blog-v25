@@ -4,10 +4,10 @@ date: 2015-03-17 06:01:00 -03:00
 description: "Relacionamentos intensos: dores e delícias do amor contemporâneo."
 categories: arquivo
 tags: [arquivo, arquivo]
-img: "https://geanramos.com.br/img/amor-proprio-e-relacionamento.jpg"
+img: "https://geanramos.u1m.com.br/img/amor-proprio-e-relacionamento.jpg"
 ---
 
-![gean ramos - Amor Próprio e Relacionamento: Um Guia de Sobrevivência](https://geanramos.com.br/img/amor-proprio-e-relacionamento.jpg)
+![gean ramos - Amor Próprio e Relacionamento: Um Guia de Sobrevivência](https://geanramos.u1m.com.br/img/amor-proprio-e-relacionamento.jpg)
 
 > Querida, precisamos falar sobre **relacionamentos doentes**. 
 

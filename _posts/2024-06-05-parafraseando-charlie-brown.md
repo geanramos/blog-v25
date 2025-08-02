@@ -64,4 +64,4 @@ Com carinho,
 
 **— Gean Ramos**
 
-Tags: [Charlie Brown](https://www.google.com/search?q=Charlie%20Brown%20site:geanramos.com.br), [inspiração](https://www.google.com/search?q=inspiração%20site:geanramos.com.br), generatividade, legado, zona de conforto, estratégias de vida, coragem, ação, motivação, sabedoria de vida.
+Tags: [Charlie Brown](https://www.google.com/search?q=Charlie%20Brown%20site:geanramos.u1m.com.br), [inspiração](https://www.google.com/search?q=inspiração%20site:geanramos.u1m.com.br), generatividade, legado, zona de conforto, estratégias de vida, coragem, ação, motivação, sabedoria de vida.

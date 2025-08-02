@@ -4,7 +4,7 @@ date: 2025-01-21 04:00:00 -03:00
 description: "Transforme sua percepção e mude sua realidade! Descubra a Magia da Mudança"
 categories: arquivo
 tags: [ohayo]
-img: "https://geanramos.com.br/img/caucasian-female-falling-asleep-after-eating-junkfood-living-room-late-night_482257-9661.jpg"
+img: "https://geanramos.u1m.com.br/img/caucasian-female-falling-asleep-after-eating-junkfood-living-room-late-night_482257-9661.jpg"
 ---
 
 ![gean ramos - Mude sua Consciência, Mude sua Vida!](https://cdn.jsdelivr.net/gh/geanramos/files/img/filosofando.png)

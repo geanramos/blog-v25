@@ -4,7 +4,7 @@ date: 2024-06-06 15:11:47 -03:00
 description: Conheça a inusitada estratégia britânica de pintar vacas para torná-las visíveis durante os apagões na Segunda Guerra Mundial. Surpreenda-se!
 categories: wow
 tags: [wow]
-img: "https://geanramos.com.br/img/zebraficacao-bovina.jpg"
+img: "https://geanramos.u1m.com.br/img/zebraficacao-bovina.jpg"
 ---
 ![você sabia?](https://cdn.jsdelivr.net/gh/geanramos/files/img/voce-sabia.png)
 

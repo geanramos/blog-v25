@@ -12,7 +12,7 @@ img: "https://image.tmdb.org/t/p/original/gdavHcRqZYOaOprdGoMccgxMhQX.jpg"
 
 ![grão de areia](https://cdn.jsdelivr.net/gh/geanramos/files/img/rising-tag.png)
 
-![Status e redes sociais: um jogo sem fim que te esgota](https://geanramos.com.br/img/status-lobo-de-wall-street.gif)
+![Status e redes sociais: um jogo sem fim que te esgota](https://geanramos.u1m.com.br/img/status-lobo-de-wall-street.gif)
 
 **É curioso como o sucesso material e o status podem levar alguém, ao mesmo tempo, à ascensão e à queda.**
 

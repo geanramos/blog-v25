@@ -5,7 +5,7 @@ description: "Não é que eu gosto. É que eu amo. Eu chego a pensar que não po
 tags: [memories]
 ---
 
-<a href="./ate-ficar-velhinho#update">  <img src="https://geanramos.com.br/img/intensidade-e-sorvetes.gif" alt="Intensidade e sorvetes">  </a>
+<a href="./ate-ficar-velhinho#update">  <img src="https://geanramos.u1m.com.br/img/intensidade-e-sorvetes.gif" alt="Intensidade e sorvetes">  </a>
 
 Fonte: [Diário de uma Paixão (2004)](./ate-ficar-velhinho#update) 
 

@@ -29,6 +29,6 @@ Se você também está cansado de ser só mais um no meio da multidão, que tal 
 E aí, bora espalhar a diversidade e autenticidade por aí? Me segue nas redes sociais e vamos juntos nessa missão:
 
 * **Instagram:** [https://www.instagram.com/geanramus](https://www.instagram.com/geanramus)
-* **Site:** [https://geanramos.com.br/](https://geanramos.com.br/)
+* **Site:** [https://geanramos.u1m.com.br/](https://geanramos.u1m.com.br/)
 
 Lembre-se: você é único. Você é especial. E ser você mesmo é simplesmente incrível! ✨

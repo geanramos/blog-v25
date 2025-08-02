@@ -3,12 +3,12 @@ title: "A Vida Muda. Você Também Deveria."
 date: 2025-03-13 01:018:00 -03:00
 description: "Viva de forma consciente e torne-se o autor da sua história. O mundo não precisa de mais fantoches!"
 tags: [ohayo]
-img: "https://geanramos.com.br/img/young-couple-standing-against-pink-background_1048944-12628846.jpg"
+img: "https://geanramos.u1m.com.br/img/young-couple-standing-against-pink-background_1048944-12628846.jpg"
 ---
 
  **FILOSOFANDO COM UM POUCO DE DRAMA E MUITO CAFÉ**
 
-![você mudou? Eu espero que sim!](https://geanramos.com.br/img/young-couple-standing-against-pink-background_1048944-12628846.jpg)
+![você mudou? Eu espero que sim!](https://geanramos.u1m.com.br/img/young-couple-standing-against-pink-background_1048944-12628846.jpg)
 
 **“Você mudou.”**  
 **“Espero que sim.”**

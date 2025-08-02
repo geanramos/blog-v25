@@ -4,10 +4,10 @@ date: 2025-01-14 05:01:00 -03:00
 description: "Entenda a importância de se mover sozinho e firmar suas raízes."
 categories: arquivo
 tags: [ohayo]
-img: "https://geanramos.com.br/img/ylEXht4BndyodoWM5YwEvWtWmHE.jpg"
+img: "https://geanramos.u1m.com.br/img/ylEXht4BndyodoWM5YwEvWtWmHE.jpg"
 ---
 
-![gean ramos - Descubra onde firmar seus pés para viver de forma autêntica.](https://geanramos.com.br/img/ylEXht4BndyodoWM5YwEvWtWmHE.jpg)
+![gean ramos - Descubra onde firmar seus pés para viver de forma autêntica.](https://geanramos.u1m.com.br/img/ylEXht4BndyodoWM5YwEvWtWmHE.jpg)
 
 **Onde Estão Seus Pés?**
 

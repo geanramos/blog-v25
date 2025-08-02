@@ -17,7 +17,7 @@ Então respira fundo, *darling*, porque a Tisha News vai destrinchar tudo isso c
 
 
 <audio id="player-audio" controls>
-<source src="https://tisha.geanramos.com.br/audio/trump-vs-china-tinder-com-ia-e-crime-recorde-no-brasil.mp3" type="audio/mpeg">
+<source src="https://tisha.geanramos.u1m.com.br/audio/trump-vs-china-tinder-com-ia-e-crime-recorde-no-brasil.mp3" type="audio/mpeg">
 </audio>
 
 ### 📉 Wall Street em chamas: o tarifaço de Trump
@@ -98,7 +98,7 @@ Mas a reação foi tipo: *“Não, Nikolas. Apenas não.”*
 
 ### 💰 Lira e a mansão de R$ 10 milhões
 
-![](https://i3.wp.com/tisha.geanramos.com.br/img/ChatGPT_Image_2025-04-05.png?resize=767,500)
+![](https://i3.wp.com/tisha.geanramos.u1m.com.br/img/ChatGPT_Image_2025-04-05.png?resize=767,500)
 
 O presidente da Câmara, **Arthur Lira**, virou notícia por adquirir uma **mansão de R$ 10 milhões** em Brasília.  
 O financiamento? Do **BRB (Banco de Brasília)**, o mesmo que agora está comprando parte do polêmico **Banco Master**.

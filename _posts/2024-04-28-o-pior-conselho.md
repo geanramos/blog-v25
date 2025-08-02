@@ -7,7 +7,7 @@ tags: [memories]
 
 **BASEADO EM UMA HISTÓRIA REAL**
 
-![(@moraeseduardo e @marinamullerg)](https://geanramos.com.br/img/moraeseduardo-e-marinamullerg.jpg?resize=676,380)
+![(@moraeseduardo e @marinamullerg)](https://geanramos.u1m.com.br/img/moraeseduardo-e-marinamullerg.jpg?resize=676,380)
 
 **_"Não mostra esse seu coração mole para mais ninguém"._**
 O Eduardo ouviu essa frase em um dia de derrota do Flamengo, naquela resenha depois de uma dezena de long necks.

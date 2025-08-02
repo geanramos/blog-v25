@@ -4,13 +4,13 @@ date: 2024-12-17 07:10:47 -03:00
 description: Como lidar com a atração por um colega de trabalho sem comprometer seu casamento? Descubra como manter o respeito e a fidelidade
 categories: ohayo
 tags: [ohayo]
-img: "https://geanramos.com.br/img/paixao-no-trabalho.jpg"
+img: "https://geanramos.u1m.com.br/img/paixao-no-trabalho.jpg"
 ---
 
 ![Trair ou respeitar meu casamento](https://cdn.jsdelivr.net/gh/geanramos/files/img/rising-tag.png)
 
 
-![Paixão no trabalho pode desestabilizar, mas é possível preservar seu casamento com autoconhecimento. Veja como se afastar da tentação.](https://geanramos.com.br/img/paixao-no-trabalho.jpg)
+![Paixão no trabalho pode desestabilizar, mas é possível preservar seu casamento com autoconhecimento. Veja como se afastar da tentação.](https://geanramos.u1m.com.br/img/paixao-no-trabalho.jpg)
 
 > _Sou casada e acho que estou apaixonada pelo meu colega de trabalho que também é casado, e acho que ele também sente a mesma coisa. Porém
 > eu amo demais o meu marido e não quero trair ele. Mas esse pensamento

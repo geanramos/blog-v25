@@ -4,7 +4,7 @@ date: 2025-01-16 06:10:46 -03:00
 description: "O Grande Desafio: Desacelerar no Mundo Acelerado, O Tempo Está Correndo ou Somos Nós Que Corremos Demais"
 categories: ohayo
 tags: [ohayo]
-img: "https://geanramos.com.br/img/uma-multidao-de-pessoas-atravessa-uma-faixa-de-pedestres-em-uma-cidade.jpg"
+img: "https://geanramos.u1m.com.br/img/uma-multidao-de-pessoas-atravessa-uma-faixa-de-pedestres-em-uma-cidade.jpg"
 ---
 Se você pudesse apagar todas as coisas difíceis que te aconteceram, você faria isso? antes de responder, pense: quem você seria hoje sem essas coisas?
 

@@ -4,10 +4,10 @@ date: 2014-04-29 06:01:00 -03:00
 description: "De arroz pra um a arroz pra dois: a jornada de um coração."
 categories: arquivo
 tags: [arquivo]
-img: "https://geanramos.com.br/img/arroz-para-dois.jpg"
+img: "https://geanramos.u1m.com.br/img/arroz-para-dois.jpg"
 ---
 
-![Gean Ramos - Arroz pra Dois: A Nova Jornada.](https://geanramos.com.br/img/arroz-para-dois.jpg)
+![Gean Ramos - Arroz pra Dois: A Nova Jornada.](https://geanramos.u1m.com.br/img/arroz-para-dois.jpg)
 
 > Nenhum Homem é uma Ilha... Já Ouviu Isso?
 
