@@ -4,7 +4,7 @@ date: 2025-02-09 05:01:00 -03:00
 description: "Como um salário mínimo brasileiro em 2009 poderia render bilhões em 2025!"
 categories: wow
 tags: [wow]
-img: "https://i.imgur.com/ayvaQrX.jpeg"
+img: "./img/ayvaQrX.jpeg"
 ---
 
 > Como um salário mínimo brasileiro de R$ 465,00 em 2009 poderia ter de deixado bilhonario em 2025!
